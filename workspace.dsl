@@ -1,26 +1,46 @@
-workspace "The Hunt" "Сервис получения охотбилета" {
+workhunt.space "The Hunt" "Сервис получения охотбилета" {
+    !impliedRelationships true
 
     model {
-        hunter = person "Охотник"
+        oper = person "Оператор"
         admin = person "Админ"
 
-        mvd = softwareSystem "МВД"
-        fns = softwareSystem "ФНС"
-        sso = softwareSystem "ЕГИССО"
-        fias = softwareSystem "ФИАС"
+        consumer = softwareSystem "Потребитель" "Система, забирающая данные" "external"
+        producer = softwareSystem "Поставщик" "Система, отправляющая данные" "external"
+        source = softwareSystem "Источник" "Система, в которую обращатся за данными" "external"
 
-        theHunt = softwareSystem "Охота.РФ" {
-            web = container "WEB-сервер" "Стат. контент и клиентское прилижение" "Nginx"
-            gateway = container "API Gateway" "Общий интерфейс" "Java+SpringBoot"
+        modeler = softwareSystem "Camunda Modeler" "Графичекий инструмент моделирования процессов" "desktop"
 
-            group "Data Services" {
-                hunters = container "Hunters" "Сервис базы охотников" "Java"
-                tickets = container "Tickets" "Сервис охотбилетов" "Java"
-                mdm = container "MDM" "Сервис 'статичных' реестров" "Java"
+        hunt = softwareSystem "Охота.РФ" {
+            spa = container "Клиентское приложение" "Single-Page Application" "JavaScript and D3.js" "Browser"
+
+            webApp = container "WEB приложение" "Предоставляет статический контент и hunt.spa" "Nginx"
+            redis = container "Database" "Хранилище информации о сессиях пользователей" "hunt.redis"
+
+            gateway = container "API gateway" "REST интерфейс. Маршрутизация запросов, маппинг API Охоты с API Camunda" ""
+
+            bpm = container "Camunda" "Сервис бизнес-процессов. Оркестратор API и сервисов" "Java, Maven" {
+                api = component "Oбщедоступный API" "" "Java"
+                engine =  component "Процессный движок" "Process Repository, Runtime Process Interaction, Task Management" "Java"
+                dbAdapter = component "БД адаптер" "Persistence Layer" "Java, SQL"
+                jober = component "Job Executor" "Выполнение асинхронных задач" "Java"
+                msgAdapter = component  "AMQP коннектор" "Обеспечиват AMQP-интерфейс к брокеру" "Java, Spring bean, AMQP"
+            }
+            bpmDb = container "Camunda DB" "Хранение процессов и их инстансов" "PostgreSQL"
+
+            mq = container "Брокер сообщений" "Обеспечивает асинхронное взаимодействие, шина событий" "RabbitMQ" "bus" {
+                exchange = component "Обменник" "Маршрутизиурет входящие события" "AMQP" "multi"
+                queue = component "Очередь" "Хранит события и сообщения для подписчиков" "AMQP, RPC" "multi"
             }
 
-            bpm = container "BPM" "Движок бизнес-процессов" "Camunda"
-            bus = container "Bus" "Интеграционный сервис"
+            group "Data Services" {
+                metaSrv = container "Meta" "Сервис управления мета-данными" "Java"{
+                    !include amqpAdapter.dsl
+                }
+
+                ticketsSrv = container "Tickets" "Сервис охотбилетов" "Java"
+                registrySrv = container "MDM" "Сервис 'статичных' реестров" "Java"
+            }
 
             group "Admin Services" {
                 zip = container "Zipkin" "Cистема распределенной трассировки"
@@ -34,44 +54,44 @@ workspace "The Hunt" "Сервис получения охотбилета" {
                 log =  container "Logstash" "Обработчик логов"
                 filebeat =  container "Filebeat" "Сборщик логов докер-контейнеров"
             }
+
+
         }
 
-        hunter -> web "uses"
 
-        admin -> zip "watches"
-        admin -> kib "watches"
-        admin -> graf "watches"
-        admin -> consul "watches"
+        hunt.spa -> hunt.gateway "Вызовы API" "JSON/HTTPS"
+        hunt.mq.exchange -> hunt.mq.queue "Привязка (Binding by Routink Key)" "AMQP" "msg"
+        hunt.webApp -> hunt.spa "Доставляет frontend-приложение до браузера пользователя"
+        hunt.gateway ->  hunt.bpm.api "Запускает процесс" "JSON/HTTPS"
+        hunt.gateway -> hunt.redis "Кэширует"
 
-        kib -> elastic "get logs"
-        log -> elastic "push logs"
-        filebeat -> log "push logs"
 
-        graf -> prom "get metrics"
+        hunt.bpm.msgAdapter ->  hunt.mq.exchange "Публикует событие" "AMQP"
+        hunt.bpm.engine -> hunt.bpm.jober "Оптимизирует выполнение процессов"
+        hunt.bpm.dbAdapter -> hunt.bpm.bpmDb "Соединяется с БД" "JDBC"
+        engine -> hunt.bpm.dbAdapter "Обращается к данным"
+        engine -> hunt.bpm.msgAdapter "Использует для отправки сообщений по событиям в процессах"
+        hunt.bpm.api -> hunt.bpm.dbAdapter "Query API"
+        hunt.bpm.api -> hunt.bpm.engine "Services API"
+        oper -> modeler "Администрирует бизнес-процессы"
+        oper -> hunt.spa "Использует"
+        oper -> hunt.webApp "Посещает URL системы" "HTTPS"
 
-        g2c -> consul "update config"
-        g2c -> git "read config"
+        admin -> hunt.zip "watches"
+        admin -> hunt.kib "watches"
+        admin -> hunt.graf "watches"
+        admin -> hunt.consul "watches"
 
-        web -> gateway "redirects"
-        gateway -> hunters "redirects"
-        gateway -> tickets "redirects"
-        gateway -> mdm "redirects"
+        hunt.kib -> hunt.elastic "get logs"
+        hunt.log -> hunt.elastic "push logs"
+        hunt.filebeat -> hunt.log "push logs"
 
-        hunters -> bpm "triggers"
-        tickets -> bpm "triggers"
-        mdm -> bpm "triggers"
+        hunt.graf -> hunt.prom "get metrics"
 
-        bpm -> hunters "calls"
-        bpm -> tickets "calls"
-        bpm -> mdm "calls"
-        bpm -> bus "calls"
+        hunt.g2c -> hunt.consul "update config"
+        hunt.g2c -> hunt.git "read config"
 
-        bpm -> mvd "checks"
-        bpm -> sso "checks"
-        bpm -> fns "checks"
 
-        bus -> mdm "updates"
-        bus -> fias "calls"
 
     }
 
@@ -79,3 +99,4 @@ workspace "The Hunt" "Сервис получения охотбилета" {
     }
 
 }
+
