@@ -1,0 +1,700 @@
+{
+  "id" : 1,
+  "name" : "The Hunt",
+  "description" : "Сервис получения охотбилета",
+  "lastModifiedDate" : "2023-12-08T09:54:05Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJUaGUgSHVudCIgItCh0LXRgNCy0LjRgSDQv9C+0LvRg9GH0LXQvdC40Y8g0L7RhdC+0YLQsdC40LvQtdGC0LAiIHsKICAgICFpbXBsaWVkUmVsYXRpb25zaGlwcyB0cnVlCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewogICAgICAgIG9wZXIgPSBwZXJzb24gItCe0L/QtdGA0LDRgtC+0YAiCiAgICAgICAgYWRtaW4gPSBwZXJzb24gItCQ0LTQvNC40L0iICIiICJhZG0iCgogICAgICAgIGNvbnN1bWVyID0gc29mdHdhcmVTeXN0ZW0gItCf0L7RgtGA0LXQsdC40YLQtdC70YwiICLQodC40YHRgtC10LzQsCwg0LfQsNCx0LjRgNCw0Y7RidCw0Y8g0LTQsNC90L3Ri9C1IiAiZXh0ZXJuYWwiCiAgICAgICAgcHJvZHVjZXIgPSBzb2Z0d2FyZVN5c3RlbSAi0J/QvtGB0YLQsNCy0YnQuNC6IiAi0KHQuNGB0YLQtdC80LAsINC+0YLQv9GA0LDQstC70Y/RjtGJ0LDRjyDQtNCw0L3QvdGL0LUiICJleHRlcm5hbCIKICAgICAgICBzb3VyY2UgPSBzb2Z0d2FyZVN5c3RlbSAi0JjRgdGC0L7Rh9C90LjQuiIgItCh0LjRgdGC0LXQvNCwLCDQsiDQutC+0YLQvtGA0YPRjiDQvtCx0YDQsNGJ0LDRgtGB0Y8g0LfQsCDQtNCw0L3QvdGL0LzQuCIgImV4dGVybmFsIgoKICAgICAgICBtb2RlbGVyID0gc29mdHdhcmVTeXN0ZW0gIkNhbXVuZGEgTW9kZWxlciIgItCT0YDQsNGE0LjRh9C10LrQuNC5INC40L3RgdGC0YDRg9C80LXQvdGCINC80L7QtNC10LvQuNGA0L7QstCw0L3QuNGPINC/0YDQvtGG0LXRgdGB0L7QsiIgImRlc2t0b3AiCgogICAgICAgIGh1bnQgPSBzb2Z0d2FyZVN5c3RlbSAi0J7RhdC+0YLQsC7QoNCkIiB7CiAgICAgICAgICAgIHNwYSA9IGNvbnRhaW5lciAi0JrQu9C40LXQvdGC0YHQutC+0LUg0L/RgNC40LvQvtC20LXQvdC40LUiICJTaW5nbGUtUGFnZSBBcHBsaWNhdGlvbiIgIkphdmFTY3JpcHQgYW5kIEQzLmpzIiAiQnJvd3NlciIKCiAgICAgICAgICAgIHdlYkFwcCA9IGNvbnRhaW5lciAiV0VCINC/0YDQuNC70L7QttC10L3QuNC1IiAi0J/RgNC10LTQvtGB0YLQsNCy0LvRj9C10YIg0YHRgtCw0YLQuNGH0LXRgdC60LjQuSDQutC+0L3RgtC10L3RgiDQuCBodW50LnNwYSIgIk5naW54IgogICAgICAgICAgICByZWRpcyA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICLQpdGA0LDQvdC40LvQuNGJ0LUg0LjQvdGE0L7RgNC80LDRhtC40Lgg0L4g0YHQtdGB0YHQuNGP0YUg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9C10LkiICJodW50LnJlZGlzIgoKICAgICAgICAgICAgZ2F0ZXdheSA9IGNvbnRhaW5lciAiQVBJIGdhdGV3YXkiICJSRVNUINC40L3RgtC10YDRhNC10LnRgS4g0JzQsNGA0YjRgNGD0YLQuNC30LDRhtC40Y8g0LfQsNC/0YDQvtGB0L7Qsiwg0LzQsNC/0L/QuNC90LMgQVBJINCe0YXQvtGC0Ysg0YEgQVBJIENhbXVuZGEiICIiCgogICAgICAgICAgICBicG0gPSBjb250YWluZXIgIkNhbXVuZGEiICLQodC10YDQstC40YEg0LHQuNC30L3QtdGBLdC/0YDQvtGG0LXRgdGB0L7Qsi4g0J7RgNC60LXRgdGC0YDQsNGC0L7RgCBBUEkg0Lgg0YHQtdGA0LLQuNGB0L7QsiIgIkphdmEsIE1hdmVuIiB7CiAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIk/QsdGJ0LXQtNC+0YHRgtGD0L/QvdGL0LkgQVBJIiAiIiAiSmF2YSIKICAgICAgICAgICAgICAgIGVuZ2luZSA9ICBjb21wb25lbnQgItCf0YDQvtGG0LXRgdGB0L3Ri9C5INC00LLQuNC20L7QuiIgIlByb2Nlc3MgUmVwb3NpdG9yeSwgUnVudGltZSBQcm9jZXNzIEludGVyYWN0aW9uLCBUYXNrIE1hbmFnZW1lbnQiICJKYXZhIgogICAgICAgICAgICAgICAgZGJBZGFwdGVyID0gY29tcG9uZW50ICLQkdCUINCw0LTQsNC/0YLQtdGAIiAiUGVyc2lzdGVuY2UgTGF5ZXIiICJKYXZhLCBTUUwiCiAgICAgICAgICAgICAgICBqb2JlciA9IGNvbXBvbmVudCAiSm9iIEV4ZWN1dG9yIiAi0JLRi9C/0L7Qu9C90LXQvdC40LUg0LDRgdC40L3RhdGA0L7QvdC90YvRhSDQt9Cw0LTQsNGHIiAiSmF2YSIKICAgICAgICAgICAgICAgIG1zZ0FkYXB0ZXIgPSBjb21wb25lbnQgICJBTVFQINC60L7QvdC90LXQutGC0L7RgCIgItCe0LHQtdGB0L/QtdGH0LjQstCw0YIgQU1RUC3QuNC90YLQtdGA0YTQtdC50YEg0Log0LHRgNC+0LrQtdGA0YMiICJKYXZhLCBTcHJpbmcgYmVhbiwgQU1RUCIKICAgICAgICAgICAgfQogICAgICAgICAgICBicG1EYiA9IGNvbnRhaW5lciAiQ2FtdW5kYSBEQiIgItCl0YDQsNC90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyINC4INC40YUg0LjQvdGB0YLQsNC90YHQvtCyIiAiUG9zdGdyZVNRTCIKCiAgICAgICAgICAgIG1xID0gY29udGFpbmVyICLQkdGA0L7QutC10YAg0YHQvtC+0LHRidC10L3QuNC5IiAi0J7QsdC10YHQv9C10YfQuNCy0LDQtdGCINCw0YHQuNC90YXRgNC+0L3QvdC+0LUg0LLQt9Cw0LjQvNC+0LTQtdC50YHRgtCy0LjQtSwg0YjQuNC90LAg0YHQvtCx0YvRgtC40LkiICJSYWJiaXRNUSIgImJ1cyIgewogICAgICAgICAgICAgICAgZXhjaGFuZ2UgPSBjb21wb25lbnQgItCe0LHQvNC10L3QvdC40LoiICLQnNCw0YDRiNGA0YPRgtC40LfQuNGD0YDQtdGCINCy0YXQvtC00Y/RidC40LUg0YHQvtCx0YvRgtC40Y8iICJBTVFQIiAibXVsdGkiCiAgICAgICAgICAgICAgICBxdWV1ZSA9IGNvbXBvbmVudCAi0J7Rh9C10YDQtdC00YwiICLQpdGA0LDQvdC40YIg0YHQvtCx0YvRgtC40Y8g0Lgg0YHQvtC+0LHRidC10L3QuNGPINC00LvRjyDQv9C+0LTQv9C40YHRh9C40LrQvtCyIiAiQU1RUCwgUlBDIiAibXVsdGkiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGdyb3VwICJEYXRhIFNlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICBtZXRhU3J2ID0gY29udGFpbmVyICJNZXRhIiAi0KHQtdGA0LLQuNGBINGD0L/RgNCw0LLQu9C10L3QuNGPINC80LXRgtCwLdC00LDQvdC90YvQvNC4IiAiSmF2YSJ7CiAgICAgICAgICAgICAgICAgICAgYW1xcEFkYXB0ZXIgPSBjb21wb25lbnQgIkFNUVAt0LDQtNCw0L/RgtC10YAiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YTRg9C90LrRhtC40Lgg0L/Rg9Cx0LvQuNC60LDRgtC+0YDQsCwg0L/QvtC00L/QuNGB0YfQuNC60LAsIFJQQy3QutC70LjQtdC90YLQsCDQuCBSUEMt0YHQtdGA0LLQtdGA0LAiICJKYXZhIiAibGliIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRpY2tldHNTcnYgPSBjb250YWluZXIgIlRpY2tldHMiICLQodC10YDQstC40YEg0L7RhdC+0YLQsdC40LvQtdGC0L7QsiIgIkphdmEiCiAgICAgICAgICAgICAgICByZWdpc3RyeVNydiA9IGNvbnRhaW5lciAiTURNIiAi0KHQtdGA0LLQuNGBICfRgdGC0LDRgtC40YfQvdGL0YUnINGA0LXQtdGB0YLRgNC+0LIiICJKYXZhIgogICAgICAgICAgICB9CgogICAgICAgICAgICBncm91cCAiQWRtaW4gU2VydmljZXMiIHsKICAgICAgICAgICAgICAgIHppcCA9IGNvbnRhaW5lciAiWmlwa2luIiAiQ9C40YHRgtC10LzQsCDRgNCw0YHQv9GA0LXQtNC10LvQtdC90L3QvtC5INGC0YDQsNGB0YHQuNGA0L7QstC60LgiICIiICJhZG0iCiAgICAgICAgICAgICAgICBraWIgPSBjb250YWluZXIgIktpYmFuYSIgItCf0YDQvtGB0LzQvtGC0YAg0LvQvtCz0L7QsiDQvNC40LrRgNC+0YHQtdGA0LLQuNGB0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGdyYWYgPSBjb250YWluZXIgIkdyYWZhbmEiICLQn9C+0YHRgtGA0L7QtdC90LjQtSDQs9GA0LDRhNC40LrQvtCyINC80LXRgtGA0LjQuiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIHByb20gPSAgY29udGFpbmVyICJQcm9tZXRoZXVzIiAi0KHQsdC+0YDRidC40Log0LzQtdGC0YDQuNC6INGBINGB0LXRgNCy0LjRgdC+0LIiICIiICJhZG0iCiAgICAgICAgICAgICAgICBjb25zdWwgPSBjb250YWluZXIgIkNvbnN1bCIgIlNlcnZpY2UgRGlzY292ZXJ5ICYgRGlzdHJpYnV0ZWQgQ29uZmlnIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgZzJjID0gIGNvbnRhaW5lciAiZ2l0MmNvbnN1bCIgItCh0LjQvdGF0YDQvtC90LjQt9C40YDRg9C10YIg0LrQvtC90YTQuNCz0Lgg0YHQtdGA0LLQuNGB0L7QsiDRgSBnaXQiICIiICJhZG0iCiAgICAgICAgICAgICAgICBnaXQgPSAgY29udGFpbmVyICJHaXRSZXBvIiAi0KDQtdC/0L7Qt9C40YLQvtGA0LjQuSDQutC+0L3RhNC40LPRg9GA0LDRhtC40Lkg0YHQtdGA0LLQuNGB0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGVsYXN0aWMgPSBjb250YWluZXIgIkVsYXN0aWNTZWFyY2giICLQpdGA0LDQvdC10L3QuNC1INC70L7Qs9C+0LIgKyDQtNCy0LjQttC+0Log0L/QvtC40YHQutCwIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgbG9nID0gIGNvbnRhaW5lciAiTG9nc3Rhc2giICLQntCx0YDQsNCx0L7RgtGH0LjQuiDQu9C+0LPQvtCyIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgZmlsZWJlYXQgPSAgY29udGFpbmVyICJGaWxlYmVhdCIgItCh0LHQvtGA0YnQuNC6INC70L7Qs9C+0LIg0LTQvtC60LXRgC3QutC+0L3RgtC10LnQvdC10YDQvtCyIiAiIiAiYWRtIgogICAgICAgICAgICB9CgoKICAgICAgICB9CgoKICAgICAgICBodW50LnNwYSAtPiBodW50LmdhdGV3YXkgItCS0YvQt9C+0LLRiyBBUEkiICJKU09OL0hUVFBTIgogICAgICAgIGh1bnQubXEuZXhjaGFuZ2UgLT4gaHVudC5tcS5xdWV1ZSAi0J/RgNC40LLRj9C30LrQsCAoQmluZGluZyBieSBSb3V0aW5rIEtleSkiICJBTVFQIiAibXNnIgogICAgICAgIGh1bnQud2ViQXBwIC0+IGh1bnQuc3BhICLQlNC+0YHRgtCw0LLQu9GP0LXRgiBmcm9udGVuZC3Qv9GA0LjQu9C+0LbQtdC90LjQtSDQtNC+INCx0YDQsNGD0LfQtdGA0LAg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPIgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiAgaHVudC5icG0uYXBpICLQl9Cw0L/Rg9GB0LrQsNC10YIg0L/RgNC+0YbQtdGB0YEiICJKU09OL0hUVFBTIgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiBodW50LnJlZGlzICLQmtGN0YjQuNGA0YPQtdGCIgoKCiAgICAgICAgaHVudC5icG0ubXNnQWRhcHRlciAtPiAgaHVudC5tcS5leGNoYW5nZSAi0J/Rg9Cx0LvQuNC60YPQtdGCINGB0L7QsdGL0YLQuNC1IiAiQU1RUCIKICAgICAgICBodW50LmJwbS5lbmdpbmUgLT4gaHVudC5icG0uam9iZXIgItCe0L/RgtC40LzQuNC30LjRgNGD0LXRgiDQstGL0L/QvtC70L3QtdC90LjQtSDQv9GA0L7RhtC10YHRgdC+0LIiCiAgICAgICAgaHVudC5icG0uZGJBZGFwdGVyIC0+IGh1bnQuYnBtRGIgItCh0L7QtdC00LjQvdGP0LXRgtGB0Y8g0YEg0JHQlCIgIkpEQkMiCiAgICAgICAgaHVudC5icG0uZW5naW5lIC0+IGh1bnQuYnBtLmRiQWRhcHRlciAi0J7QsdGA0LDRidCw0LXRgtGB0Y8g0Log0LTQsNC90L3Ri9C8IgogICAgICAgIGh1bnQuYnBtLmVuZ2luZSAtPiBodW50LmJwbS5tc2dBZGFwdGVyICLQmNGB0L/QvtC70YzQt9GD0LXRgiDQtNC70Y8g0L7RgtC/0YDQsNCy0LrQuCDRgdC+0L7QsdGJ0LXQvdC40Lkg0L/QviDRgdC+0LHRi9GC0LjRj9C8INCyINC/0YDQvtGG0LXRgdGB0LDRhSIKICAgICAgICBodW50LmJwbS5hcGkgLT4gaHVudC5icG0uZGJBZGFwdGVyICJRdWVyeSBBUEkiCiAgICAgICAgaHVudC5icG0uYXBpIC0+IGh1bnQuYnBtLmVuZ2luZSAiU2VydmljZXMgQVBJIgogICAgICAgIG9wZXIgLT4gbW9kZWxlciAi0JDQtNC80LjQvdC40YHRgtGA0LjRgNGD0LXRgiDQsdC40LfQvdC10YEt0L/RgNC+0YbQtdGB0YHRiyIKICAgICAgICBvcGVyIC0+IGh1bnQuc3BhICLQmNGB0L/QvtC70YzQt9GD0LXRgiIKICAgICAgICBvcGVyIC0+IGh1bnQud2ViQXBwICLQn9C+0YHQtdGJ0LDQtdGCIFVSTCDRgdC40YHRgtC10LzRiyIgIkhUVFBTIgoKICAgICAgICBhZG1pbiAtPiBodW50LnppcCAid2F0Y2hlcyIKICAgICAgICBhZG1pbiAtPiBodW50LmtpYiAid2F0Y2hlcyIKICAgICAgICBhZG1pbiAtPiBodW50LmdyYWYgIndhdGNoZXMiCiAgICAgICAgYWRtaW4gLT4gaHVudC5jb25zdWwgIndhdGNoZXMiCgogICAgICAgIGh1bnQua2liIC0+IGh1bnQuZWxhc3RpYyAiZ2V0IGxvZ3MiCiAgICAgICAgaHVudC5sb2cgLT4gaHVudC5lbGFzdGljICJwdXNoIGxvZ3MiCiAgICAgICAgaHVudC5maWxlYmVhdCAtPiBodW50LmxvZyAicHVzaCBsb2dzIgoKICAgICAgICBodW50LmdyYWYgLT4gaHVudC5wcm9tICJnZXQgbWV0cmljcyIKCiAgICAgICAgaHVudC5nMmMgLT4gaHVudC5jb25zdWwgInVwZGF0ZSBjb25maWciCiAgICAgICAgaHVudC5nMmMgLT4gaHVudC5naXQgInJlYWQgY29uZmlnIgoKCgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGh1bnQgImh1bnRNYWluVmlldyIgewogICAgICAgICAgICBhdXRvTGF5b3V0IHRiCiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlICJlbGVtZW50LnRhZz09YWRtIgogICAgICAgIH0KICAgIH0KCn0KCg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person,adm",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Админ",
+      "relationships" : [ {
+        "id" : "60",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "1a37469a-afba-4f5a-9f43-5686a46f13be"
+        },
+        "sourceId" : "2",
+        "destinationId" : "28",
+        "description" : "watches"
+      }, {
+        "id" : "59",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c043699c-0a1a-4d2a-9b5c-f8d12f5ad6be"
+        },
+        "sourceId" : "2",
+        "destinationId" : "27",
+        "description" : "watches"
+      }, {
+        "id" : "58",
+        "sourceId" : "2",
+        "destinationId" : "7",
+        "description" : "watches",
+        "linkedRelationshipId" : "57"
+      }, {
+        "id" : "57",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "e2e58fdb-00c4-4f95-9774-032bf0d975a4"
+        },
+        "sourceId" : "2",
+        "destinationId" : "26",
+        "description" : "watches"
+      }, {
+        "id" : "61",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "273926df-ced6-423f-912a-1c59a9835f63"
+        },
+        "sourceId" : "2",
+        "destinationId" : "30",
+        "description" : "watches"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "oper"
+      },
+      "name" : "Оператор",
+      "relationships" : [ {
+        "id" : "55",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Использует",
+        "linkedRelationshipId" : "54"
+      }, {
+        "id" : "54",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "73991691-c3af-422b-915e-b98f7475e98a"
+        },
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Использует"
+      }, {
+        "id" : "53",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d9f69f2e-a83f-46bd-97b5-591c00c74a87"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Администрирует бизнес-процессы"
+      }, {
+        "id" : "56",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "49b62cd9-659a-46c3-8011-3111051ae6e8"
+        },
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Посещает URL системы",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "producer"
+      },
+      "name" : "Поставщик",
+      "description" : "Система, отправляющая данные",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "consumer"
+      },
+      "name" : "Потребитель",
+      "description" : "Система, забирающая данные",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "source"
+      },
+      "name" : "Источник",
+      "description" : "Система, в которую обращатся за данными",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,desktop",
+      "properties" : {
+        "structurizr.dsl.identifier" : "modeler"
+      },
+      "name" : "Camunda Modeler",
+      "description" : "Графичекий инструмент моделирования процессов",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "hunt"
+      },
+      "name" : "Охота.РФ",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "19",
+        "tags" : "Element,Container,bus",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.mq"
+        },
+        "name" : "Брокер сообщений",
+        "description" : "Обеспечивает асинхронное взаимодействие, шина событий",
+        "technology" : "RabbitMQ",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component,multi",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.mq.exchange"
+          },
+          "name" : "Обменник",
+          "description" : "Маршрутизиурет входящие события",
+          "relationships" : [ {
+            "id" : "37",
+            "tags" : "Relationship,msg",
+            "properties" : {
+              "structurizr.dsl.identifier" : "2460433c-02d2-4f53-8c7a-cea73bc26c4a"
+            },
+            "sourceId" : "20",
+            "destinationId" : "21",
+            "description" : "Привязка (Binding by Routink Key)",
+            "technology" : "AMQP"
+          } ],
+          "technology" : "AMQP",
+          "documentation" : { }
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component,multi",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.mq.queue"
+          },
+          "name" : "Очередь",
+          "description" : "Хранит события и сообщения для подписчиков",
+          "technology" : "AMQP, RPC",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.registrysrv"
+        },
+        "name" : "MDM",
+        "description" : "Сервис 'статичных' реестров",
+        "group" : "Data Services",
+        "technology" : "Java",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.redis"
+        },
+        "name" : "Database",
+        "description" : "Хранилище информации о сессиях пользователей",
+        "technology" : "hunt.redis",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.webapp"
+        },
+        "name" : "WEB приложение",
+        "description" : "Предоставляет статический контент и hunt.spa",
+        "relationships" : [ {
+          "id" : "38",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e02b6713-f7d6-4e9a-98bd-3afa67c28cf5"
+          },
+          "sourceId" : "9",
+          "destinationId" : "8",
+          "description" : "Доставляет frontend-приложение до браузера пользователя"
+        } ],
+        "technology" : "Nginx",
+        "documentation" : { }
+      }, {
+        "id" : "34",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.log"
+        },
+        "name" : "Logstash",
+        "description" : "Обработчик логов",
+        "relationships" : [ {
+          "id" : "63",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d19ebffa-6753-4b32-851d-84a1317bb829"
+          },
+          "sourceId" : "34",
+          "destinationId" : "33",
+          "description" : "push logs"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "27",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.kib"
+        },
+        "name" : "Kibana",
+        "description" : "Просмотр логов микросервисов",
+        "relationships" : [ {
+          "id" : "62",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "b79ad11a-82be-4a34-86b8-4d8fdd52ea7e"
+          },
+          "sourceId" : "27",
+          "destinationId" : "33",
+          "description" : "get logs"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "33",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.elastic"
+        },
+        "name" : "ElasticSearch",
+        "description" : "Хранение логов + движок поиска",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "26",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.zip"
+        },
+        "name" : "Zipkin",
+        "description" : "Cистема распределенной трассировки",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "35",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.filebeat"
+        },
+        "name" : "Filebeat",
+        "description" : "Сборщик логов докер-контейнеров",
+        "relationships" : [ {
+          "id" : "64",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "270d9a94-625d-4558-be02-fcb5b6c924bf"
+          },
+          "sourceId" : "35",
+          "destinationId" : "34",
+          "description" : "push logs"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "32",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.git"
+        },
+        "name" : "GitRepo",
+        "description" : "Репозиторий конфигураций сервисов",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "31",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.g2c"
+        },
+        "name" : "git2consul",
+        "description" : "Синхронизирует конфиги сервисов с git",
+        "relationships" : [ {
+          "id" : "66",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "09ee7f9d-2430-41ad-a203-af8d2739e0b5"
+          },
+          "sourceId" : "31",
+          "destinationId" : "30",
+          "description" : "update config"
+        }, {
+          "id" : "67",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4854f3f0-9333-4956-9ac3-25dfb85719d9"
+          },
+          "sourceId" : "31",
+          "destinationId" : "32",
+          "description" : "read config"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.gateway"
+        },
+        "name" : "API gateway",
+        "description" : "REST интерфейс. Маршрутизация запросов, маппинг API Охоты с API Camunda",
+        "relationships" : [ {
+          "id" : "39",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0618c58a-afe6-475b-82d5-600968596449"
+          },
+          "sourceId" : "11",
+          "destinationId" : "13",
+          "description" : "Запускает процесс",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "40",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Запускает процесс",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "39"
+        }, {
+          "id" : "41",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0ee504e7-90c7-4766-b10c-a52265d8bf5d"
+          },
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Кэширует"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "18",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.bpmdb"
+        },
+        "name" : "Camunda DB",
+        "description" : "Хранение процессов и их инстансов",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "24",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.ticketssrv"
+        },
+        "name" : "Tickets",
+        "description" : "Сервис охотбилетов",
+        "group" : "Data Services",
+        "technology" : "Java",
+        "documentation" : { }
+      }, {
+        "id" : "30",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.consul"
+        },
+        "name" : "Consul",
+        "description" : "Service Discovery & Distributed Config",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.bpm"
+        },
+        "name" : "Camunda",
+        "description" : "Сервис бизнес-процессов. Оркестратор API и сервисов",
+        "relationships" : [ {
+          "id" : "45",
+          "sourceId" : "12",
+          "destinationId" : "19",
+          "description" : "Публикует событие",
+          "technology" : "AMQP",
+          "linkedRelationshipId" : "42"
+        }, {
+          "id" : "44",
+          "sourceId" : "12",
+          "destinationId" : "20",
+          "description" : "Публикует событие",
+          "technology" : "AMQP",
+          "linkedRelationshipId" : "42"
+        }, {
+          "id" : "48",
+          "sourceId" : "12",
+          "destinationId" : "18",
+          "description" : "Соединяется с БД",
+          "technology" : "JDBC",
+          "linkedRelationshipId" : "47"
+        } ],
+        "technology" : "Java, Maven",
+        "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.jober"
+          },
+          "name" : "Job Executor",
+          "description" : "Выполнение асинхронных задач",
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.msgadapter"
+          },
+          "name" : "AMQP коннектор",
+          "description" : "Обеспечиват AMQP-интерфейс к брокеру",
+          "relationships" : [ {
+            "id" : "42",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "70aa3eac-094f-4ec1-b843-ca4f84164ed5"
+            },
+            "sourceId" : "17",
+            "destinationId" : "20",
+            "description" : "Публикует событие",
+            "technology" : "AMQP"
+          }, {
+            "id" : "43",
+            "sourceId" : "17",
+            "destinationId" : "19",
+            "description" : "Публикует событие",
+            "technology" : "AMQP",
+            "linkedRelationshipId" : "42"
+          } ],
+          "technology" : "Java, Spring bean, AMQP",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.dbadapter"
+          },
+          "name" : "БД адаптер",
+          "description" : "Persistence Layer",
+          "relationships" : [ {
+            "id" : "47",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "7649f988-904e-4e5e-8291-03de94dcddba"
+            },
+            "sourceId" : "15",
+            "destinationId" : "18",
+            "description" : "Соединяется с БД",
+            "technology" : "JDBC"
+          } ],
+          "technology" : "Java, SQL",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.engine"
+          },
+          "name" : "Процессный движок",
+          "description" : "Process Repository, Runtime Process Interaction, Task Management",
+          "relationships" : [ {
+            "id" : "49",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "96fedb9b-9a3c-403c-9c01-da604ae27e75"
+            },
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Обращается к данным"
+          }, {
+            "id" : "46",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "a6a59ff0-4c22-4ce9-8e32-d060ca46c262"
+            },
+            "sourceId" : "14",
+            "destinationId" : "16",
+            "description" : "Оптимизирует выполнение процессов"
+          }, {
+            "id" : "50",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "bb3f560e-3b9d-4b89-94ab-65de946f7070"
+            },
+            "sourceId" : "14",
+            "destinationId" : "17",
+            "description" : "Использует для отправки сообщений по событиям в процессах"
+          } ],
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.api"
+          },
+          "name" : "Oбщедоступный API",
+          "relationships" : [ {
+            "id" : "52",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "735c9666-df95-49e3-9eee-3a7d7ee98b2e"
+            },
+            "sourceId" : "13",
+            "destinationId" : "14",
+            "description" : "Services API"
+          }, {
+            "id" : "51",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "79baaae4-c43b-4fa3-901b-adea82dbc1ff"
+            },
+            "sourceId" : "13",
+            "destinationId" : "15",
+            "description" : "Query API"
+          } ],
+          "technology" : "Java",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.metasrv"
+        },
+        "name" : "Meta",
+        "description" : "Сервис управления мета-данными",
+        "group" : "Data Services",
+        "technology" : "Java",
+        "components" : [ {
+          "id" : "23",
+          "tags" : "Element,Component,lib",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.metasrv.amqpadapter"
+          },
+          "name" : "AMQP-адаптер",
+          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
+          "technology" : "Java",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.prom"
+        },
+        "name" : "Prometheus",
+        "description" : "Сборщик метрик с сервисов",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "28",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.graf"
+        },
+        "name" : "Grafana",
+        "description" : "Построение графиков метрик",
+        "relationships" : [ {
+          "id" : "65",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "71828124-5038-4982-8100-204a6186fdad"
+          },
+          "sourceId" : "28",
+          "destinationId" : "29",
+          "description" : "get metrics"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Browser",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.spa"
+        },
+        "name" : "Клиентское приложение",
+        "description" : "Single-Page Application",
+        "relationships" : [ {
+          "id" : "36",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3f891e81-37fc-4b40-aee4-e83b39f6afa6"
+          },
+          "sourceId" : "8",
+          "destinationId" : "11",
+          "description" : "Вызовы API",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "JavaScript and D3.js",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "huntMainView",
+      "order" : 1,
+      "softwareSystemId" : "7",
+      "dimensions" : {
+        "width" : 850,
+        "height" : 1300
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : true
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "55"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 199
+      }, {
+        "id" : "7",
+        "x" : 199,
+        "y" : 799
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "huntMainView"
+    }
+  }
+}

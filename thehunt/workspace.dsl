@@ -1,9 +1,10 @@
-workhunt.space "The Hunt" "Сервис получения охотбилета" {
+workspace "The Hunt" "Сервис получения охотбилета" {
     !impliedRelationships true
+    !identifiers hierarchical
 
     model {
         oper = person "Оператор"
-        admin = person "Админ"
+        admin = person "Админ" "" "adm"
 
         consumer = softwareSystem "Потребитель" "Система, забирающая данные" "external"
         producer = softwareSystem "Поставщик" "Система, отправляющая данные" "external"
@@ -35,7 +36,7 @@ workhunt.space "The Hunt" "Сервис получения охотбилета"
 
             group "Data Services" {
                 metaSrv = container "Meta" "Сервис управления мета-данными" "Java"{
-                    !include amqpAdapter.dsl
+                    !include common/amqpAdapter.dsl
                 }
 
                 ticketsSrv = container "Tickets" "Сервис охотбилетов" "Java"
@@ -43,16 +44,16 @@ workhunt.space "The Hunt" "Сервис получения охотбилета"
             }
 
             group "Admin Services" {
-                zip = container "Zipkin" "Cистема распределенной трассировки"
-                kib = container "Kibana" "Просмотр логов микросервисов"
-                graf = container "Grafana" "Построение графиков метрик"
-                prom =  container "Prometheus" "Сборщик метрик с сервисов"
-                consul = container "Consul" "Service Discovery & Distributed Config"
-                g2c =  container "git2consul" "Синхронизирует конфиги сервисов с git"
-                git =  container "GitRepo" "Репозиторий конфигураций сервисов"
-                elastic = container "ElasticSearch" "Хранение логов + движок поиска"
-                log =  container "Logstash" "Обработчик логов"
-                filebeat =  container "Filebeat" "Сборщик логов докер-контейнеров"
+                zip = container "Zipkin" "Cистема распределенной трассировки" "" "adm"
+                kib = container "Kibana" "Просмотр логов микросервисов" "" "adm"
+                graf = container "Grafana" "Построение графиков метрик" "" "adm"
+                prom =  container "Prometheus" "Сборщик метрик с сервисов" "" "adm"
+                consul = container "Consul" "Service Discovery & Distributed Config" "" "adm"
+                g2c =  container "git2consul" "Синхронизирует конфиги сервисов с git" "" "adm"
+                git =  container "GitRepo" "Репозиторий конфигураций сервисов" "" "adm"
+                elastic = container "ElasticSearch" "Хранение логов + движок поиска" "" "adm"
+                log =  container "Logstash" "Обработчик логов" "" "adm"
+                filebeat =  container "Filebeat" "Сборщик логов докер-контейнеров" "" "adm"
             }
 
 
@@ -68,9 +69,9 @@ workhunt.space "The Hunt" "Сервис получения охотбилета"
 
         hunt.bpm.msgAdapter ->  hunt.mq.exchange "Публикует событие" "AMQP"
         hunt.bpm.engine -> hunt.bpm.jober "Оптимизирует выполнение процессов"
-        hunt.bpm.dbAdapter -> hunt.bpm.bpmDb "Соединяется с БД" "JDBC"
-        engine -> hunt.bpm.dbAdapter "Обращается к данным"
-        engine -> hunt.bpm.msgAdapter "Использует для отправки сообщений по событиям в процессах"
+        hunt.bpm.dbAdapter -> hunt.bpmDb "Соединяется с БД" "JDBC"
+        hunt.bpm.engine -> hunt.bpm.dbAdapter "Обращается к данным"
+        hunt.bpm.engine -> hunt.bpm.msgAdapter "Использует для отправки сообщений по событиям в процессах"
         hunt.bpm.api -> hunt.bpm.dbAdapter "Query API"
         hunt.bpm.api -> hunt.bpm.engine "Services API"
         oper -> modeler "Администрирует бизнес-процессы"
@@ -96,6 +97,11 @@ workhunt.space "The Hunt" "Сервис получения охотбилета"
     }
 
     views {
+        systemContext hunt "huntMainView" {
+            autoLayout tb
+            include *
+            exclude "element.tag==adm"
+        }
     }
 
 }
