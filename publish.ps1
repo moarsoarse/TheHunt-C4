@@ -9,7 +9,7 @@ param (
     [bool]$CreateImages = $false
 )
  
-git diff-tree --no-commit-id --name-only --diff-filter=cd -r "$StartCommitId..$CommitId" | Where-Object { $_.EndsWith('.dsl') } | Foreach-Object {
+git diff-tree --no-commit-id --name-only --diff-filter=cd -r "$StartCommitId..$CommitId" | Where-Object { $_.EndsWith('.json') } | Foreach-Object {
  
     $filePath = ($_ | Resolve-Path -Relative) -replace "^./"
     $workspaceFolder = Split-Path -Path $filePath -Parent
