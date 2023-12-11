@@ -15,10 +15,12 @@ workspace "The Hunt" "Сервис получения охотбилета" {
         hunt = softwareSystem "Охота.РФ" {
             spa = container "Клиентское приложение" "Single-Page Application" "JavaScript and D3.js" "Browser"
 
-            webApp = container "WEB приложение" "Предоставляет статический контент и hunt.spa" "Nginx"
-            redis = container "Database" "Хранилище информации о сессиях пользователей" "hunt.redis"
+            webApp = container "WEB приложение" "Предоставляет статический контент и SPA" "Nginx"
+            redis = container "Database" "Хранилище информации о сессиях пользователей" "Redis"
 
-            gateway = container "API gateway" "REST интерфейс. Маршрутизация запросов, маппинг API Охоты с API Camunda" ""
+            gateway = container "API gateway" "REST интерфейс. Маршрутизация запросов" "Java"
+
+            bpmClient = container "Camunda client" "Запускает выполнение процессов" "Java"
 
             bpm = container "Camunda" "Сервис бизнес-процессов. Оркестратор API и сервисов" "Java, Maven" {
                 api = component "Oбщедоступный API" "" "Java"
@@ -26,6 +28,7 @@ workspace "The Hunt" "Сервис получения охотбилета" {
                 dbAdapter = component "БД адаптер" "Persistence Layer" "Java, SQL"
                 jober = component "Job Executor" "Выполнение асинхронных задач" "Java"
                 msgAdapter = component  "AMQP коннектор" "Обеспечиват AMQP-интерфейс к брокеру" "Java, Spring bean, AMQP"
+                httpConnector = component "HTTP коннектор" "HTTP-интерфейс External tasks"
             }
             bpmDb = container "Camunda DB" "Хранение процессов и их инстансов" "PostgreSQL"
 
@@ -34,13 +37,20 @@ workspace "The Hunt" "Сервис получения охотбилета" {
                 queue = component "Очередь" "Хранит события и сообщения для подписчиков" "AMQP, RPC" "multi"
             }
 
-            group "Data Services" {
+            group "Microservices" {
                 metaSrv = container "Meta" "Сервис управления мета-данными" "Java"{
+                    api = component "REST API" "API сервиса управления мета-данными" "Java"
                     !include common/amqpAdapter.dsl
                 }
 
-                ticketsSrv = container "Tickets" "Сервис охотбилетов" "Java"
-                registrySrv = container "MDM" "Сервис 'статичных' реестров" "Java"
+                ticketsSrv = container "Tickets" "Сервис охотбилетов" "Java"{
+                    api = component "REST API" "API сервиса охотбилетов" "Java"
+                    !include common/amqpAdapter.dsl
+                }
+                registrySrv = container "Registry" "Сервис реестров" "Java"{
+                    api = component "REST API" "API сервиса реестров" "Java"
+                    !include common/amqpAdapter.dsl
+                }
             }
 
             group "Admin Services" {
@@ -61,13 +71,26 @@ workspace "The Hunt" "Сервис получения охотбилета" {
 
 
         hunt.spa -> hunt.gateway "Вызовы API" "JSON/HTTPS"
-        hunt.mq.exchange -> hunt.mq.queue "Привязка (Binding by Routink Key)" "AMQP" "msg"
+
         hunt.webApp -> hunt.spa "Доставляет frontend-приложение до браузера пользователя"
-        hunt.gateway ->  hunt.bpm.api "Запускает процесс" "JSON/HTTPS"
+
+
+        hunt.gateway ->  hunt.bpmClient "Операции, запускающие процесс" "JSON/HTTP"
+        hunt.bpmClient ->  hunt.bpm.api "Запускает процесс" "JSON/HTTP"
+        hunt.gateway ->  hunt.metaSrv.api  "" "JSON/HTTP"
+        hunt.gateway ->  hunt.ticketsSrv.api  "" "JSON/HTTP"
+        hunt.gateway ->  hunt.registrySrv.api  "" "JSON/HTTP"
+
         hunt.gateway -> hunt.redis "Кэширует"
 
-
+        hunt.mq.exchange -> hunt.mq.queue "Привязка (Binding by Routink Key)" "AMQP" "msg"
         hunt.bpm.msgAdapter ->  hunt.mq.exchange "Публикует событие" "AMQP"
+        hunt.bpmClient ->  hunt.mq.queue "Забирает событие" "AMQP, RPC"
+
+        hunt.bpm.httpConnector -> hunt.metaSrv.api  "" "JSON/HTTP"
+        hunt.bpm.httpConnector -> hunt.ticketsSrv.api  "" "JSON/HTTP"
+        hunt.bpm.httpConnector -> hunt.registrySrv.api  "" "JSON/HTTP"
+
         hunt.bpm.engine -> hunt.bpm.jober "Оптимизирует выполнение процессов"
         hunt.bpm.dbAdapter -> hunt.bpmDb "Соединяется с БД" "JDBC"
         hunt.bpm.engine -> hunt.bpm.dbAdapter "Обращается к данным"
@@ -102,7 +125,11 @@ workspace "The Hunt" "Сервис получения охотбилета" {
             include *
             exclude "element.tag==adm"
         }
+        container hunt "huntArchitecture" {
+            default
+            include *
+            exclude "element.tag==adm"
+        }
     }
 
 }
-
