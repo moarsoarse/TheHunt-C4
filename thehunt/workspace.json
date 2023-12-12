@@ -2,56 +2,14 @@
   "id" : 1,
   "name" : "The Hunt",
   "description" : "Сервис получения охотбилета",
-  "lastModifiedDate" : "2023-12-11T10:10:59Z",
+  "lastModifiedDate" : "2023-12-11T12:42:52Z",
+  "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJUaGUgSHVudCIgItCh0LXRgNCy0LjRgSDQv9C+0LvRg9GH0LXQvdC40Y8g0L7RhdC+0YLQsdC40LvQtdGC0LAiIHsKICAgICFpbXBsaWVkUmVsYXRpb25zaGlwcyB0cnVlCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewogICAgICAgIG9wZXIgPSBwZXJzb24gItCe0L/QtdGA0LDRgtC+0YAiCiAgICAgICAgYWRtaW4gPSBwZXJzb24gItCQ0LTQvNC40L0iICIiICJhZG0iCgogICAgICAgIGNvbnN1bWVyID0gc29mdHdhcmVTeXN0ZW0gItCf0L7RgtGA0LXQsdC40YLQtdC70YwiICLQodC40YHRgtC10LzQsCwg0LfQsNCx0LjRgNCw0Y7RidCw0Y8g0LTQsNC90L3Ri9C1IiAiZXh0ZXJuYWwiCiAgICAgICAgcHJvZHVjZXIgPSBzb2Z0d2FyZVN5c3RlbSAi0J/QvtGB0YLQsNCy0YnQuNC6IiAi0KHQuNGB0YLQtdC80LAsINC+0YLQv9GA0LDQstC70Y/RjtGJ0LDRjyDQtNCw0L3QvdGL0LUiICJleHRlcm5hbCIKICAgICAgICBzb3VyY2UgPSBzb2Z0d2FyZVN5c3RlbSAi0JjRgdGC0L7Rh9C90LjQuiIgItCh0LjRgdGC0LXQvNCwLCDQsiDQutC+0YLQvtGA0YPRjiDQvtCx0YDQsNGJ0LDRgtGB0Y8g0LfQsCDQtNCw0L3QvdGL0LzQuCIgImV4dGVybmFsIgoKICAgICAgICBtb2RlbGVyID0gc29mdHdhcmVTeXN0ZW0gIkNhbXVuZGEgTW9kZWxlciIgItCT0YDQsNGE0LjRh9C10LrQuNC5INC40L3RgdGC0YDRg9C80LXQvdGCINC80L7QtNC10LvQuNGA0L7QstCw0L3QuNGPINC/0YDQvtGG0LXRgdGB0L7QsiIgImRlc2t0b3AiCgogICAgICAgIGh1bnQgPSBzb2Z0d2FyZVN5c3RlbSAi0J7RhdC+0YLQsC7QoNCkIiB7CiAgICAgICAgICAgIHNwYSA9IGNvbnRhaW5lciAi0JrQu9C40LXQvdGC0YHQutC+0LUg0L/RgNC40LvQvtC20LXQvdC40LUiICJTaW5nbGUtUGFnZSBBcHBsaWNhdGlvbiIgIkphdmFTY3JpcHQgYW5kIEQzLmpzIiAiQnJvd3NlciIKCiAgICAgICAgICAgIHdlYkFwcCA9IGNvbnRhaW5lciAiV0VCINC/0YDQuNC70L7QttC10L3QuNC1IiAi0J/RgNC10LTQvtGB0YLQsNCy0LvRj9C10YIg0YHRgtCw0YLQuNGH0LXRgdC60LjQuSDQutC+0L3RgtC10L3RgiDQuCBTUEEiICJOZ2lueCIKICAgICAgICAgICAgcmVkaXMgPSBjb250YWluZXIgIkRhdGFiYXNlIiAi0KXRgNCw0L3QuNC70LjRidC1INC40L3RhNC+0YDQvNCw0YbQuNC4INC+INGB0LXRgdGB0LjRj9GFINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvQtdC5IiAiUmVkaXMiCgogICAgICAgICAgICBnYXRld2F5ID0gY29udGFpbmVyICJBUEkgZ2F0ZXdheSIgIlJFU1Qg0LjQvdGC0LXRgNGE0LXQudGBLiDQnNCw0YDRiNGA0YPRgtC40LfQsNGG0LjRjyDQt9Cw0L/RgNC+0YHQvtCyIiAiSmF2YSIKCiAgICAgICAgICAgIGJwbUNsaWVudCA9IGNvbnRhaW5lciAiQ2FtdW5kYSBjbGllbnQiICLQl9Cw0L/Rg9GB0LrQsNC10YIg0LLRi9C/0L7Qu9C90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyIiAiSmF2YSIKCiAgICAgICAgICAgIGJwbSA9IGNvbnRhaW5lciAiQ2FtdW5kYSIgItCh0LXRgNCy0LjRgSDQsdC40LfQvdC10YEt0L/RgNC+0YbQtdGB0YHQvtCyLiDQntGA0LrQtdGB0YLRgNCw0YLQvtGAIEFQSSDQuCDRgdC10YDQstC40YHQvtCyIiAiSmF2YSwgTWF2ZW4iIHsKICAgICAgICAgICAgICAgIGFwaSA9IGNvbXBvbmVudCAiT9Cx0YnQtdC00L7RgdGC0YPQv9C90YvQuSBBUEkiICIiICJKYXZhIgogICAgICAgICAgICAgICAgZW5naW5lID0gIGNvbXBvbmVudCAi0J/RgNC+0YbQtdGB0YHQvdGL0Lkg0LTQstC40LbQvtC6IiAiUHJvY2VzcyBSZXBvc2l0b3J5LCBSdW50aW1lIFByb2Nlc3MgSW50ZXJhY3Rpb24sIFRhc2sgTWFuYWdlbWVudCIgIkphdmEiCiAgICAgICAgICAgICAgICBkYkFkYXB0ZXIgPSBjb21wb25lbnQgItCR0JQg0LDQtNCw0L/RgtC10YAiICJQZXJzaXN0ZW5jZSBMYXllciIgIkphdmEsIFNRTCIKICAgICAgICAgICAgICAgIGpvYmVyID0gY29tcG9uZW50ICJKb2IgRXhlY3V0b3IiICLQktGL0L/QvtC70L3QtdC90LjQtSDQsNGB0LjQvdGF0YDQvtC90L3Ri9GFINC30LDQtNCw0YciICJKYXZhIgogICAgICAgICAgICAgICAgbXNnQWRhcHRlciA9IGNvbXBvbmVudCAgIkFNUVAg0LrQvtC90L3QtdC60YLQvtGAIiAi0J7QsdC10YHQv9C10YfQuNCy0LDRgiBBTVFQLdC40L3RgtC10YDRhNC10LnRgSDQuiDQsdGA0L7QutC10YDRgyIgIkphdmEsIFNwcmluZyBiZWFuLCBBTVFQIgogICAgICAgICAgICAgICAgaHR0cENvbm5lY3RvciA9IGNvbXBvbmVudCAiSFRUUCDQutC+0L3QvdC10LrRgtC+0YAiICJIVFRQLdC40L3RgtC10YDRhNC10LnRgSBFeHRlcm5hbCB0YXNrcyIKICAgICAgICAgICAgfQogICAgICAgICAgICBicG1EYiA9IGNvbnRhaW5lciAiQ2FtdW5kYSBEQiIgItCl0YDQsNC90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyINC4INC40YUg0LjQvdGB0YLQsNC90YHQvtCyIiAiUG9zdGdyZVNRTCIKCiAgICAgICAgICAgIG1xID0gY29udGFpbmVyICLQkdGA0L7QutC10YAg0YHQvtC+0LHRidC10L3QuNC5IiAi0J7QsdC10YHQv9C10YfQuNCy0LDQtdGCINCw0YHQuNC90YXRgNC+0L3QvdC+0LUg0LLQt9Cw0LjQvNC+0LTQtdC50YHRgtCy0LjQtSwg0YjQuNC90LAg0YHQvtCx0YvRgtC40LkiICJSYWJiaXRNUSIgImJ1cyIgewogICAgICAgICAgICAgICAgZXhjaGFuZ2UgPSBjb21wb25lbnQgItCe0LHQvNC10L3QvdC40LoiICLQnNCw0YDRiNGA0YPRgtC40LfQuNGD0YDQtdGCINCy0YXQvtC00Y/RidC40LUg0YHQvtCx0YvRgtC40Y8iICJBTVFQIiAibXVsdGkiCiAgICAgICAgICAgICAgICBxdWV1ZSA9IGNvbXBvbmVudCAi0J7Rh9C10YDQtdC00YwiICLQpdGA0LDQvdC40YIg0YHQvtCx0YvRgtC40Y8g0Lgg0YHQvtC+0LHRidC10L3QuNGPINC00LvRjyDQv9C+0LTQv9C40YHRh9C40LrQvtCyIiAiQU1RUCwgUlBDIiAibXVsdGkiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGdyb3VwICJNaWNyb3NlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICBtZXRhU3J2ID0gY29udGFpbmVyICJNZXRhIiAi0KHQtdGA0LLQuNGBINGD0L/RgNCw0LLQu9C10L3QuNGPINC80LXRgtCwLdC00LDQvdC90YvQvNC4IiAiSmF2YSJ7CiAgICAgICAgICAgICAgICAgICAgYXBpID0gY29tcG9uZW50ICJSRVNUIEFQSSIgIkFQSSDRgdC10YDQstC40YHQsCDRg9C/0YDQsNCy0LvQtdC90LjRjyDQvNC10YLQsC3QtNCw0L3QvdGL0LzQuCIgIkphdmEiCiAgICAgICAgICAgICAgICAgICAgYW1xcEFkYXB0ZXIgPSBjb21wb25lbnQgIkFNUVAt0LDQtNCw0L/RgtC10YAiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YTRg9C90LrRhtC40Lgg0L/Rg9Cx0LvQuNC60LDRgtC+0YDQsCwg0L/QvtC00L/QuNGB0YfQuNC60LAsIFJQQy3QutC70LjQtdC90YLQsCDQuCBSUEMt0YHQtdGA0LLQtdGA0LAiICJKYXZhIiAibGliIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRpY2tldHNTcnYgPSBjb250YWluZXIgIlRpY2tldHMiICLQodC10YDQstC40YEg0L7RhdC+0YLQsdC40LvQtdGC0L7QsiIgIkphdmEiewogICAgICAgICAgICAgICAgICAgIGFwaSA9IGNvbXBvbmVudCAiUkVTVCBBUEkiICJBUEkg0YHQtdGA0LLQuNGB0LAg0L7RhdC+0YLQsdC40LvQtdGC0L7QsiIgIkphdmEiCiAgICAgICAgICAgICAgICAgICAgYW1xcEFkYXB0ZXIgPSBjb21wb25lbnQgIkFNUVAt0LDQtNCw0L/RgtC10YAiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YTRg9C90LrRhtC40Lgg0L/Rg9Cx0LvQuNC60LDRgtC+0YDQsCwg0L/QvtC00L/QuNGB0YfQuNC60LAsIFJQQy3QutC70LjQtdC90YLQsCDQuCBSUEMt0YHQtdGA0LLQtdGA0LAiICJKYXZhIiAibGliIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVnaXN0cnlTcnYgPSBjb250YWluZXIgIlJlZ2lzdHJ5IiAi0KHQtdGA0LLQuNGBINGA0LXQtdGB0YLRgNC+0LIiICJKYXZhInsKICAgICAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIlJFU1QgQVBJIiAiQVBJINGB0LXRgNCy0LjRgdCwINGA0LXQtdGB0YLRgNC+0LIiICJKYXZhIgogICAgICAgICAgICAgICAgICAgIGFtcXBBZGFwdGVyID0gY29tcG9uZW50ICJBTVFQLdCw0LTQsNC/0YLQtdGAIiAi0J7QsdC10YHQv9C10YfQuNCy0LDQtdGCINGE0YPQvdC60YbQuNC4INC/0YPQsdC70LjQutCw0YLQvtGA0LAsINC/0L7QtNC/0LjRgdGH0LjQutCwLCBSUEMt0LrQu9C40LXQvdGC0LAg0LggUlBDLdGB0LXRgNCy0LXRgNCwIiAiSmF2YSIgImxpYiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ3JvdXAgIkFkbWluIFNlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICB6aXAgPSBjb250YWluZXIgIlppcGtpbiIgIkPQuNGB0YLQtdC80LAg0YDQsNGB0L/RgNC10LTQtdC70LXQvdC90L7QuSDRgtGA0LDRgdGB0LjRgNC+0LLQutC4IiAiIiAiYWRtIgogICAgICAgICAgICAgICAga2liID0gY29udGFpbmVyICJLaWJhbmEiICLQn9GA0L7RgdC80L7RgtGAINC70L7Qs9C+0LIg0LzQuNC60YDQvtGB0LXRgNCy0LjRgdC+0LIiICIiICJhZG0iCiAgICAgICAgICAgICAgICBncmFmID0gY29udGFpbmVyICJHcmFmYW5hIiAi0J/QvtGB0YLRgNC+0LXQvdC40LUg0LPRgNCw0YTQuNC60L7QsiDQvNC10YLRgNC40LoiICIiICJhZG0iCiAgICAgICAgICAgICAgICBwcm9tID0gIGNvbnRhaW5lciAiUHJvbWV0aGV1cyIgItCh0LHQvtGA0YnQuNC6INC80LXRgtGA0LjQuiDRgSDRgdC10YDQstC40YHQvtCyIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgY29uc3VsID0gY29udGFpbmVyICJDb25zdWwiICJTZXJ2aWNlIERpc2NvdmVyeSAmIERpc3RyaWJ1dGVkIENvbmZpZyIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGcyYyA9ICBjb250YWluZXIgImdpdDJjb25zdWwiICLQodC40L3RhdGA0L7QvdC40LfQuNGA0YPQtdGCINC60L7QvdGE0LjQs9C4INGB0LXRgNCy0LjRgdC+0LIg0YEgZ2l0IiAiIiAiYWRtIgogICAgICAgICAgICAgICAgZ2l0ID0gIGNvbnRhaW5lciAiR2l0UmVwbyIgItCg0LXQv9C+0LfQuNGC0L7RgNC40Lkg0LrQvtC90YTQuNCz0YPRgNCw0YbQuNC5INGB0LXRgNCy0LjRgdC+0LIiICIiICJhZG0iCiAgICAgICAgICAgICAgICBlbGFzdGljID0gY29udGFpbmVyICJFbGFzdGljU2VhcmNoIiAi0KXRgNCw0L3QtdC90LjQtSDQu9C+0LPQvtCyICsg0LTQstC40LbQvtC6INC/0L7QuNGB0LrQsCIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGxvZyA9ICBjb250YWluZXIgIkxvZ3N0YXNoIiAi0J7QsdGA0LDQsdC+0YLRh9C40Log0LvQvtCz0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGZpbGViZWF0ID0gIGNvbnRhaW5lciAiRmlsZWJlYXQiICLQodCx0L7RgNGJ0LjQuiDQu9C+0LPQvtCyINC00L7QutC10YAt0LrQvtC90YLQtdC50L3QtdGA0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgfQoKCiAgICAgICAgfQoKCiAgICAgICAgaHVudC5zcGEgLT4gaHVudC5nYXRld2F5ICLQktGL0LfQvtCy0YsgQVBJIiAiSlNPTi9IVFRQUyIKCiAgICAgICAgaHVudC53ZWJBcHAgLT4gaHVudC5zcGEgItCU0L7RgdGC0LDQstC70Y/QtdGCIGZyb250ZW5kLdC/0YDQuNC70L7QttC10L3QuNC1INC00L4g0LHRgNCw0YPQt9C10YDQsCDQv9C+0LvRjNC30L7QstCw0YLQtdC70Y8iCgoKICAgICAgICBodW50LmdhdGV3YXkgLT4gIGh1bnQuYnBtQ2xpZW50ICLQntC/0LXRgNCw0YbQuNC4LCDQt9Cw0L/Rg9GB0LrQsNGO0YnQuNC1INC/0YDQvtGG0LXRgdGBIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuYnBtQ2xpZW50IC0+ICBodW50LmJwbS5hcGkgItCX0LDQv9GD0YHQutCw0LXRgiDQv9GA0L7RhtC10YHRgSIgIkpTT04vSFRUUCIKICAgICAgICBodW50LmdhdGV3YXkgLT4gIGh1bnQubWV0YVNydi5hcGkgICIiICJKU09OL0hUVFAiCiAgICAgICAgaHVudC5nYXRld2F5IC0+ICBodW50LnRpY2tldHNTcnYuYXBpICAiIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiAgaHVudC5yZWdpc3RyeVNydi5hcGkgICIiICJKU09OL0hUVFAiCgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiBodW50LnJlZGlzICLQmtGN0YjQuNGA0YPQtdGCIgoKICAgICAgICBodW50Lm1xLmV4Y2hhbmdlIC0+IGh1bnQubXEucXVldWUgItCf0YDQuNCy0Y/Qt9C60LAgKEJpbmRpbmcgYnkgUm91dGluayBLZXkpIiAiQU1RUCIgIm1zZyIKICAgICAgICBodW50LmJwbS5tc2dBZGFwdGVyIC0+ICBodW50Lm1xLmV4Y2hhbmdlICLQn9GD0LHQu9C40LrRg9C10YIg0YHQvtCx0YvRgtC40LUiICJBTVFQIgogICAgICAgIGh1bnQuYnBtQ2xpZW50IC0+ICBodW50Lm1xLnF1ZXVlICLQl9Cw0LHQuNGA0LDQtdGCINGB0L7QsdGL0YLQuNC1IiAiQU1RUCwgUlBDIgoKICAgICAgICBodW50LmJwbS5odHRwQ29ubmVjdG9yIC0+IGh1bnQubWV0YVNydi5hcGkgICIiICJKU09OL0hUVFAiCiAgICAgICAgaHVudC5icG0uaHR0cENvbm5lY3RvciAtPiBodW50LnRpY2tldHNTcnYuYXBpICAiIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuYnBtLmh0dHBDb25uZWN0b3IgLT4gaHVudC5yZWdpc3RyeVNydi5hcGkgICIiICJKU09OL0hUVFAiCgogICAgICAgIGh1bnQuYnBtLmVuZ2luZSAtPiBodW50LmJwbS5qb2JlciAi0J7Qv9GC0LjQvNC40LfQuNGA0YPQtdGCINCy0YvQv9C+0LvQvdC10L3QuNC1INC/0YDQvtGG0LXRgdGB0L7QsiIKICAgICAgICBodW50LmJwbS5kYkFkYXB0ZXIgLT4gaHVudC5icG1EYiAi0KHQvtC10LTQuNC90Y/QtdGC0YHRjyDRgSDQkdCUIiAiSkRCQyIKICAgICAgICBodW50LmJwbS5lbmdpbmUgLT4gaHVudC5icG0uZGJBZGFwdGVyICLQntCx0YDQsNGJ0LDQtdGC0YHRjyDQuiDQtNCw0L3QvdGL0LwiCiAgICAgICAgaHVudC5icG0uZW5naW5lIC0+IGh1bnQuYnBtLm1zZ0FkYXB0ZXIgItCY0YHQv9C+0LvRjNC30YPQtdGCINC00LvRjyDQvtGC0L/RgNCw0LLQutC4INGB0L7QvtCx0YnQtdC90LjQuSDQv9C+INGB0L7QsdGL0YLQuNGP0Lwg0LIg0L/RgNC+0YbQtdGB0YHQsNGFIgogICAgICAgIGh1bnQuYnBtLmFwaSAtPiBodW50LmJwbS5kYkFkYXB0ZXIgIlF1ZXJ5IEFQSSIKICAgICAgICBodW50LmJwbS5hcGkgLT4gaHVudC5icG0uZW5naW5lICJTZXJ2aWNlcyBBUEkiCiAgICAgICAgb3BlciAtPiBtb2RlbGVyICLQkNC00LzQuNC90LjRgdGC0YDQuNGA0YPQtdGCINCx0LjQt9C90LXRgS3Qv9GA0L7RhtC10YHRgdGLIgogICAgICAgIG9wZXIgLT4gaHVudC5zcGEgItCY0YHQv9C+0LvRjNC30YPQtdGCIgogICAgICAgIG9wZXIgLT4gaHVudC53ZWJBcHAgItCf0L7RgdC10YnQsNC10YIgVVJMINGB0LjRgdGC0LXQvNGLIiAiSFRUUFMiCgogICAgICAgIGFkbWluIC0+IGh1bnQuemlwICJ3YXRjaGVzIgogICAgICAgIGFkbWluIC0+IGh1bnQua2liICJ3YXRjaGVzIgogICAgICAgIGFkbWluIC0+IGh1bnQuZ3JhZiAid2F0Y2hlcyIKICAgICAgICBhZG1pbiAtPiBodW50LmNvbnN1bCAid2F0Y2hlcyIKCiAgICAgICAgaHVudC5raWIgLT4gaHVudC5lbGFzdGljICJnZXQgbG9ncyIKICAgICAgICBodW50LmxvZyAtPiBodW50LmVsYXN0aWMgInB1c2ggbG9ncyIKICAgICAgICBodW50LmZpbGViZWF0IC0+IGh1bnQubG9nICJwdXNoIGxvZ3MiCgogICAgICAgIGh1bnQuZ3JhZiAtPiBodW50LnByb20gImdldCBtZXRyaWNzIgoKICAgICAgICBodW50LmcyYyAtPiBodW50LmNvbnN1bCAidXBkYXRlIGNvbmZpZyIKICAgICAgICBodW50LmcyYyAtPiBodW50LmdpdCAicmVhZCBjb25maWciCgoKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgaHVudCAiaHVudE1haW5WaWV3IiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQgdGIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgImVsZW1lbnQudGFnPT1hZG0iCiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBodW50ICJodW50QXJjaGl0ZWN0dXJlIiB7CiAgICAgICAgICAgIGRlZmF1bHQKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgImVsZW1lbnQudGFnPT1hZG0iCiAgICAgICAgfQogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlICJUaGUgSHVudCIgItCh0LXRgNCy0LjRgSDQv9C+0LvRg9GH0LXQvdC40Y8g0L7RhdC+0YLQsdC40LvQtdGC0LAiIHsKICAgICFpbXBsaWVkUmVsYXRpb25zaGlwcyB0cnVlCiAgICAhaWRlbnRpZmllcnMgaGllcmFyY2hpY2FsCgogICAgbW9kZWwgewogICAgICAgIG9wZXIgPSBwZXJzb24gItCe0L/QtdGA0LDRgtC+0YAiCiAgICAgICAgYWRtaW4gPSBwZXJzb24gItCQ0LTQvNC40L0iICIiICJhZG0iCgogICAgICAgIGNvbnN1bWVyID0gc29mdHdhcmVTeXN0ZW0gItCf0L7RgtGA0LXQsdC40YLQtdC70YwiICLQodC40YHRgtC10LzQsCwg0LfQsNCx0LjRgNCw0Y7RidCw0Y8g0LTQsNC90L3Ri9C1IiAiZXh0ZXJuYWwiCiAgICAgICAgcHJvZHVjZXIgPSBzb2Z0d2FyZVN5c3RlbSAi0J/QvtGB0YLQsNCy0YnQuNC6IiAi0KHQuNGB0YLQtdC80LAsINC+0YLQv9GA0LDQstC70Y/RjtGJ0LDRjyDQtNCw0L3QvdGL0LUiICJleHRlcm5hbCIKICAgICAgICBzb3VyY2UgPSBzb2Z0d2FyZVN5c3RlbSAi0JjRgdGC0L7Rh9C90LjQuiIgItCh0LjRgdGC0LXQvNCwLCDQsiDQutC+0YLQvtGA0YPRjiDQvtCx0YDQsNGJ0LDRgtGB0Y8g0LfQsCDQtNCw0L3QvdGL0LzQuCIgImV4dGVybmFsIgoKICAgICAgICBtb2RlbGVyID0gc29mdHdhcmVTeXN0ZW0gIkNhbXVuZGEgTW9kZWxlciIgItCT0YDQsNGE0LjRh9C10LrQuNC5INC40L3RgdGC0YDRg9C80LXQvdGCINC80L7QtNC10LvQuNGA0L7QstCw0L3QuNGPINC/0YDQvtGG0LXRgdGB0L7QsiIgImRlc2t0b3AiCgogICAgICAgIGh1bnQgPSBzb2Z0d2FyZVN5c3RlbSAi0J7RhdC+0YLRg9C/0YDQsNCy0LvQtdC90LjQtSIgewogICAgICAgICAgICBzcGEgPSBjb250YWluZXIgItCa0LvQuNC10L3RgtGB0LrQvtC1INC/0YDQuNC70L7QttC10L3QuNC1IiAiU2luZ2xlLVBhZ2UgQXBwbGljYXRpb24iICJKYXZhU2NyaXB0IGFuZCBEMy5qcyIgImJyb3dzZXIiCgogICAgICAgICAgICB3ZWJBcHAgPSBjb250YWluZXIgIldFQiDQv9GA0LjQu9C+0LbQtdC90LjQtSIgItCf0YDQtdC00L7RgdGC0LDQstC70Y/QtdGCINGB0YLQsNGC0LjRh9C10YHQutC40Lkg0LrQvtC90YLQtdC90YIg0LggU1BBIiAiTmdpbngiCiAgICAgICAgICAgIHJlZGlzID0gY29udGFpbmVyICJEYXRhYmFzZSIgItCl0YDQsNC90LjQu9C40YnQtSDQuNC90YTQvtGA0LzQsNGG0LjQuCDQviDRgdC10YHRgdC40Y/RhSDQv9C+0LvRjNC30L7QstCw0YLQtdC70LXQuSIgIlJlZGlzIiAiZGIiCgogICAgICAgICAgICBnYXRld2F5ID0gY29udGFpbmVyICJBUEkgZ2F0ZXdheSIgIlJFU1Qg0LjQvdGC0LXRgNGE0LXQudGBLiDQnNCw0YDRiNGA0YPRgtC40LfQsNGG0LjRjyDQt9Cw0L/RgNC+0YHQvtCyIiAiSmF2YSIKCiAgICAgICAgICAgIGJwbUNsaWVudCA9IGNvbnRhaW5lciAiQ2FtdW5kYSBjbGllbnQiICLQl9Cw0L/Rg9GB0LrQsNC10YIg0LLRi9C/0L7Qu9C90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyIiAiSmF2YSIKCiAgICAgICAgICAgIGJwbSA9IGNvbnRhaW5lciAiQ2FtdW5kYSIgItCh0LXRgNCy0LjRgSDQsdC40LfQvdC10YEt0L/RgNC+0YbQtdGB0YHQvtCyLiDQntGA0LrQtdGB0YLRgNCw0YLQvtGAIEFQSSDQuCDRgdC10YDQstC40YHQvtCyIiAiSmF2YSwgTWF2ZW4iIHsKICAgICAgICAgICAgICAgIGFwaSA9IGNvbXBvbmVudCAiT9Cx0YnQtdC00L7RgdGC0YPQv9C90YvQuSBBUEkiICIiICJKYXZhIgogICAgICAgICAgICAgICAgZW5naW5lID0gIGNvbXBvbmVudCAi0J/RgNC+0YbQtdGB0YHQvdGL0Lkg0LTQstC40LbQvtC6IiAiUHJvY2VzcyBSZXBvc2l0b3J5LCBSdW50aW1lIFByb2Nlc3MgSW50ZXJhY3Rpb24sIFRhc2sgTWFuYWdlbWVudCIgIkphdmEiCiAgICAgICAgICAgICAgICBkYkFkYXB0ZXIgPSBjb21wb25lbnQgItCR0JQg0LDQtNCw0L/RgtC10YAiICJQZXJzaXN0ZW5jZSBMYXllciIgIkphdmEsIFNRTCIKICAgICAgICAgICAgICAgIGpvYmVyID0gY29tcG9uZW50ICJKb2IgRXhlY3V0b3IiICLQktGL0L/QvtC70L3QtdC90LjQtSDQsNGB0LjQvdGF0YDQvtC90L3Ri9GFINC30LDQtNCw0YciICJKYXZhIgogICAgICAgICAgICAgICAgbXNnQWRhcHRlciA9IGNvbXBvbmVudCAgIkFNUVAg0LrQvtC90L3QtdC60YLQvtGAIiAi0J7QsdC10YHQv9C10YfQuNCy0LDRgiBBTVFQLdC40L3RgtC10YDRhNC10LnRgSDQuiDQsdGA0L7QutC10YDRgyIgIkphdmEsIFNwcmluZyBiZWFuLCBBTVFQIgogICAgICAgICAgICAgICAgaHR0cENvbm5lY3RvciA9IGNvbXBvbmVudCAiSFRUUCDQutC+0L3QvdC10LrRgtC+0YAiICLQodC40L3RhdGA0L7QvdC90YvQtSBTZXJ2aWNlVGFzayIKICAgICAgICAgICAgfQogICAgICAgICAgICBicG1EYiA9IGNvbnRhaW5lciAiQ2FtdW5kYSBEQiIgItCl0YDQsNC90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyINC4INC40YUg0LjQvdGB0YLQsNC90YHQvtCyIiAiUG9zdGdyZVNRTCIgImRiIgoKICAgICAgICAgICAgbXEgPSBjb250YWluZXIgItCR0YDQvtC60LXRgCDRgdC+0L7QsdGJ0LXQvdC40LkiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0LDRgdC40L3RhdGA0L7QvdC90L7QtSDQstC30LDQuNC80L7QtNC10LnRgdGC0LLQuNC1LCDRiNC40L3QsCDRgdC+0LHRi9GC0LjQuSIgIlJhYmJpdE1RIiAiYnVzIiB7CiAgICAgICAgICAgICAgICBleGNoYW5nZSA9IGNvbXBvbmVudCAi0J7QsdC80LXQvdC90LjQuiIgItCc0LDRgNGI0YDRg9GC0LjQt9C40YPRgNC10YIg0LLRhdC+0LTRj9GJ0LjQtSDRgdC+0LHRi9GC0LjRjyIgIkFNUVAiICJtdWx0aSIKICAgICAgICAgICAgICAgIHF1ZXVlID0gY29tcG9uZW50ICLQntGH0LXRgNC10LTRjCIgItCl0YDQsNC90LjRgiDRgdC+0LHRi9GC0LjRjyDQuCDRgdC+0L7QsdGJ0LXQvdC40Y8g0LTQu9GPINC/0L7QtNC/0LjRgdGH0LjQutC+0LIiICJBTVFQLCBSUEMiICJtdWx0aSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ3JvdXAgIk1pY3Jvc2VydmljZXMiIHsKICAgICAgICAgICAgICAgIG1ldGFTcnYgPSBjb250YWluZXIgIk1ldGEiICLQodC10YDQstC40YEg0YPQv9GA0LDQstC70LXQvdC40Y8g0LzQtdGC0LAt0LTQsNC90L3Ri9C80LgiICJKYXZhIiAibWljcm9zZXJ2aWNlInsKICAgICAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIlJFU1QgQVBJIiAiQVBJINGB0LXRgNCy0LjRgdCwINGD0L/RgNCw0LLQu9C10L3QuNGPINC80LXRgtCwLdC00LDQvdC90YvQvNC4IiAiSmF2YSIKICAgICAgICAgICAgICAgICAgICBleHRUYXNrQ2xpZW50ID0gY29tcG9uZW50ICJFeHRlcm5hbCBUYXNrIENsaWVudCIgItCX0LDQsdC40YDQsNC10YIgKGZldGNoL2xvY2spINGC0L7Qv9C40LrQuCDQuNC3IENhbXVuZGEsINGA0LXQsNC70LjQt9GD0LXRgiDQuNC90YLQtdGA0YTQtdC50YHRiyBoYW5kbGUoKSDQuCBjb21wbGV0ZSgpIgogICAgICAgICAgICAgICAgICAgIGFtcXBBZGFwdGVyID0gY29tcG9uZW50ICJBTVFQLdCw0LTQsNC/0YLQtdGAIiAi0J7QsdC10YHQv9C10YfQuNCy0LDQtdGCINGE0YPQvdC60YbQuNC4INC/0YPQsdC70LjQutCw0YLQvtGA0LAsINC/0L7QtNC/0LjRgdGH0LjQutCwLCBSUEMt0LrQu9C40LXQvdGC0LAg0LggUlBDLdGB0LXRgNCy0LXRgNCwIiAiSmF2YSIgImxpYiIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB0aWNrZXRzU3J2ID0gY29udGFpbmVyICJUaWNrZXRzIiAi0KHQtdGA0LLQuNGBINC+0YXQvtGC0LHQuNC70LXRgtC+0LIiICJKYXZhIiAibWljcm9zZXJ2aWNlInsKICAgICAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIlJFU1QgQVBJIiAiQVBJINGB0LXRgNCy0LjRgdCwINC+0YXQvtGC0LHQuNC70LXRgtC+0LIiICJKYXZhIgogICAgICAgICAgICAgICAgICAgIGV4dFRhc2tDbGllbnQgPSBjb21wb25lbnQgIkV4dGVybmFsIFRhc2sgQ2xpZW50IiAi0JfQsNCx0LjRgNCw0LXRgiAoZmV0Y2gvbG9jaykg0YLQvtC/0LjQutC4INC40LcgQ2FtdW5kYSwg0YDQtdCw0LvQuNC30YPQtdGCINC40L3RgtC10YDRhNC10LnRgdGLIGhhbmRsZSgpINC4IGNvbXBsZXRlKCkiCiAgICAgICAgICAgICAgICAgICAgYW1xcEFkYXB0ZXIgPSBjb21wb25lbnQgIkFNUVAt0LDQtNCw0L/RgtC10YAiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YTRg9C90LrRhtC40Lgg0L/Rg9Cx0LvQuNC60LDRgtC+0YDQsCwg0L/QvtC00L/QuNGB0YfQuNC60LAsIFJQQy3QutC70LjQtdC90YLQsCDQuCBSUEMt0YHQtdGA0LLQtdGA0LAiICJKYXZhIiAibGliIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVnaXN0cnlTcnYgPSBjb250YWluZXIgIlJlZ2lzdHJ5IiAi0KHQtdGA0LLQuNGBINGA0LXQtdGB0YLRgNC+0LIiICJKYXZhIiAibWljcm9zZXJ2aWNlInsKICAgICAgICAgICAgICAgICAgICBhcGkgPSBjb21wb25lbnQgIlJFU1QgQVBJIiAiQVBJINGB0LXRgNCy0LjRgdCwINGA0LXQtdGB0YLRgNC+0LIiICJKYXZhIgogICAgICAgICAgICAgICAgICAgIGV4dFRhc2tDbGllbnQgPSBjb21wb25lbnQgIkV4dGVybmFsIFRhc2sgQ2xpZW50IiAi0JfQsNCx0LjRgNCw0LXRgiAoZmV0Y2gvbG9jaykg0YLQvtC/0LjQutC4INC40LcgQ2FtdW5kYSwg0YDQtdCw0LvQuNC30YPQtdGCINC40L3RgtC10YDRhNC10LnRgdGLIGhhbmRsZSgpINC4IGNvbXBsZXRlKCkiCiAgICAgICAgICAgICAgICAgICAgYW1xcEFkYXB0ZXIgPSBjb21wb25lbnQgIkFNUVAt0LDQtNCw0L/RgtC10YAiICLQntCx0LXRgdC/0LXRh9C40LLQsNC10YIg0YTRg9C90LrRhtC40Lgg0L/Rg9Cx0LvQuNC60LDRgtC+0YDQsCwg0L/QvtC00L/QuNGB0YfQuNC60LAsIFJQQy3QutC70LjQtdC90YLQsCDQuCBSUEMt0YHQtdGA0LLQtdGA0LAiICJKYXZhIiAibGliIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBncm91cCAiQWRtaW4gU2VydmljZXMiIHsKICAgICAgICAgICAgICAgIHppcCA9IGNvbnRhaW5lciAiWmlwa2luIiAiQ9C40YHRgtC10LzQsCDRgNCw0YHQv9GA0LXQtNC10LvQtdC90L3QvtC5INGC0YDQsNGB0YHQuNGA0L7QstC60LgiICIiICJhZG0iCiAgICAgICAgICAgICAgICBraWIgPSBjb250YWluZXIgIktpYmFuYSIgItCf0YDQvtGB0LzQvtGC0YAg0LvQvtCz0L7QsiDQvNC40LrRgNC+0YHQtdGA0LLQuNGB0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGdyYWYgPSBjb250YWluZXIgIkdyYWZhbmEiICLQn9C+0YHRgtGA0L7QtdC90LjQtSDQs9GA0LDRhNC40LrQvtCyINC80LXRgtGA0LjQuiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIHByb20gPSAgY29udGFpbmVyICJQcm9tZXRoZXVzIiAi0KHQsdC+0YDRidC40Log0LzQtdGC0YDQuNC6INGBINGB0LXRgNCy0LjRgdC+0LIiICIiICJhZG0iCiAgICAgICAgICAgICAgICBjb25zdWwgPSBjb250YWluZXIgIkNvbnN1bCIgIlNlcnZpY2UgRGlzY292ZXJ5ICYgRGlzdHJpYnV0ZWQgQ29uZmlnIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgZzJjID0gIGNvbnRhaW5lciAiZ2l0MmNvbnN1bCIgItCh0LjQvdGF0YDQvtC90LjQt9C40YDRg9C10YIg0LrQvtC90YTQuNCz0Lgg0YHQtdGA0LLQuNGB0L7QsiDRgSBnaXQiICIiICJhZG0iCiAgICAgICAgICAgICAgICBnaXQgPSAgY29udGFpbmVyICJHaXRSZXBvIiAi0KDQtdC/0L7Qt9C40YLQvtGA0LjQuSDQutC+0L3RhNC40LPRg9GA0LDRhtC40Lkg0YHQtdGA0LLQuNGB0L7QsiIgIiIgImFkbSIKICAgICAgICAgICAgICAgIGVsYXN0aWMgPSBjb250YWluZXIgIkVsYXN0aWNTZWFyY2giICLQpdGA0LDQvdC10L3QuNC1INC70L7Qs9C+0LIgKyDQtNCy0LjQttC+0Log0L/QvtC40YHQutCwIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgbG9nID0gIGNvbnRhaW5lciAiTG9nc3Rhc2giICLQntCx0YDQsNCx0L7RgtGH0LjQuiDQu9C+0LPQvtCyIiAiIiAiYWRtIgogICAgICAgICAgICAgICAgZmlsZWJlYXQgPSAgY29udGFpbmVyICJGaWxlYmVhdCIgItCh0LHQvtGA0YnQuNC6INC70L7Qs9C+0LIg0LTQvtC60LXRgC3QutC+0L3RgtC10LnQvdC10YDQvtCyIiAiIiAiYWRtIgogICAgICAgICAgICB9CgoKICAgICAgICB9CgoKICAgICAgICBodW50LnNwYSAtPiBodW50LmdhdGV3YXkgItCS0YvQt9C+0LLRiyBBUEkiICJKU09OL0hUVFBTIgoKICAgICAgICBodW50LndlYkFwcCAtPiBodW50LnNwYSAi0JTQvtGB0YLQsNCy0LvRj9C10YIgZnJvbnRlbmQt0L/RgNC40LvQvtC20LXQvdC40LUg0LTQviDQsdGA0LDRg9C30LXRgNCwINC/0L7Qu9GM0LfQvtCy0LDRgtC10LvRjyIKCgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiAgaHVudC5icG1DbGllbnQgItCe0L/QtdGA0LDRhtC40LgsINC30LDQv9GD0YHQutCw0Y7RidC40LUg0L/RgNC+0YbQtdGB0YEiICJKU09OL0hUVFAiCiAgICAgICAgaHVudC5icG1DbGllbnQgLT4gIGh1bnQuYnBtLmFwaSAi0JfQsNC/0YPRgdC60LDQtdGCINC/0YDQvtGG0LXRgdGBIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuZ2F0ZXdheSAtPiAgaHVudC5tZXRhU3J2LmFwaSAgIiIgIkpTT04vSFRUUCIKICAgICAgICBodW50LmdhdGV3YXkgLT4gIGh1bnQudGlja2V0c1Nydi5hcGkgICIiICJKU09OL0hUVFAiCiAgICAgICAgaHVudC5nYXRld2F5IC0+ICBodW50LnJlZ2lzdHJ5U3J2LmFwaSAgIiIgIkpTT04vSFRUUCIKCiAgICAgICAgaHVudC5nYXRld2F5IC0+IGh1bnQucmVkaXMgItCa0Y3RiNC40YDRg9C10YIiCgogICAgICAgIGh1bnQubXEuZXhjaGFuZ2UgLT4gaHVudC5tcS5xdWV1ZSAi0J/RgNC40LLRj9C30LrQsCAoQmluZGluZyBieSBSb3V0aW5rIEtleSkiICJBTVFQIiAibXNnIgogICAgICAgIGh1bnQuYnBtLm1zZ0FkYXB0ZXIgLT4gIGh1bnQubXEuZXhjaGFuZ2UgItCf0YPQsdC70LjQutGD0LXRgiDRgdC+0LHRi9GC0LjQtSIgIkFNUVAiCiAgICAgICAgaHVudC5icG1DbGllbnQgLT4gIGh1bnQubXEucXVldWUgItCX0LDQsdC40YDQsNC10YIg0YHQvtCx0YvRgtC40LUiICJBTVFQLCBSUEMiCiAgICAgICAgY29uc3VtZXIgLT4gaHVudC5tcS5xdWV1ZSAgItCf0L7QtNC/0LjRgdC60LAg0L3QsCDRgdC+0LHRi9GC0LjRjyIgIkFNUVAsIFJQQyIKCiAgICAgICAgaHVudC5icG0uaHR0cENvbm5lY3RvciAtPiBodW50Lm1ldGFTcnYuYXBpICAiIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuYnBtLmh0dHBDb25uZWN0b3IgLT4gaHVudC50aWNrZXRzU3J2LmFwaSAgIiIgIkpTT04vSFRUUCIKICAgICAgICBodW50LmJwbS5odHRwQ29ubmVjdG9yIC0+IGh1bnQucmVnaXN0cnlTcnYuYXBpICAiIiAiSlNPTi9IVFRQIgogICAgICAgIGh1bnQuYnBtLmh0dHBDb25uZWN0b3IgLT4gc291cmNlICIiICJKU09OL0hUVFAiCgoKICAgICAgICBjb25zdW1lciAtPiBodW50LmJwbS5lbmdpbmUgItCf0L7QtNC/0LjRgdC60LAg0L3QsCBFeHRlcm5hbCBUYXNrINGC0L7Qv9C40LoiICJIVFRQIgogICAgICAgIGh1bnQubWV0YVNydi5leHRUYXNrQ2xpZW50IC0+IGh1bnQuYnBtLmVuZ2luZSAi0J/QvtC00L/QuNGB0LrQsCDQvdCwIEV4dGVybmFsIFRhc2sg0YLQvtC/0LjQuiIgIkhUVFAiCiAgICAgICAgaHVudC50aWNrZXRzU3J2LmV4dFRhc2tDbGllbnQgLT4gaHVudC5icG0uZW5naW5lICLQn9C+0LTQv9C40YHQutCwINC90LAgRXh0ZXJuYWwgVGFzayDRgtC+0L/QuNC6IiAiSFRUUCIKICAgICAgICBodW50LnJlZ2lzdHJ5U3J2LmV4dFRhc2tDbGllbnQgLT4gaHVudC5icG0uZW5naW5lICLQn9C+0LTQv9C40YHQutCwINC90LAgRXh0ZXJuYWwgVGFzayDRgtC+0L/QuNC6IiAiSFRUUCIKCiAgICAgICAgaHVudC5icG0uZW5naW5lIC0+IGh1bnQuYnBtLmpvYmVyICLQntC/0YLQuNC80LjQt9C40YDRg9C10YIg0LLRi9C/0L7Qu9C90LXQvdC40LUg0L/RgNC+0YbQtdGB0YHQvtCyIgogICAgICAgIGh1bnQuYnBtLmRiQWRhcHRlciAtPiBodW50LmJwbURiICLQodC+0LXQtNC40L3Rj9C10YLRgdGPINGBINCR0JQiICJKREJDIgogICAgICAgIGh1bnQuYnBtLmVuZ2luZSAtPiBodW50LmJwbS5kYkFkYXB0ZXIgItCe0LHRgNCw0YnQsNC10YLRgdGPINC6INC00LDQvdC90YvQvCIKICAgICAgICBodW50LmJwbS5lbmdpbmUgLT4gaHVudC5icG0ubXNnQWRhcHRlciAi0JjRgdC/0L7Qu9GM0LfRg9C10YIg0LTQu9GPINC+0YLQv9GA0LDQstC60Lgg0YHQvtC+0LHRidC10L3QuNC5INC/0L4g0YHQvtCx0YvRgtC40Y/QvCDQsiDQv9GA0L7RhtC10YHRgdCw0YUiCiAgICAgICAgaHVudC5icG0uZW5naW5lIC0+IGh1bnQuYnBtLmh0dHBDb25uZWN0b3IgItCY0YHQv9C+0LvRjNC30YPQtdGCINC00LvRjyBSRVNULdC30LDQv9GA0L7RgdC+0LIg0LIg0L/RgNC+0YbQtdGB0YHQsNGFIgogICAgICAgIGh1bnQuYnBtLmFwaSAtPiBodW50LmJwbS5kYkFkYXB0ZXIgIlF1ZXJ5IEFQSSIKICAgICAgICBodW50LmJwbS5hcGkgLT4gaHVudC5icG0uZW5naW5lICJTZXJ2aWNlcyBBUEkiCiAgICAgICAgb3BlciAtPiBtb2RlbGVyICLQkNC00LzQuNC90LjRgdGC0YDQuNGA0YPQtdGCINCx0LjQt9C90LXRgS3Qv9GA0L7RhtC10YHRgdGLIgogICAgICAgIG9wZXIgLT4gaHVudC5zcGEgItCY0YHQv9C+0LvRjNC30YPQtdGCIgogICAgICAgIG9wZXIgLT4gaHVudC53ZWJBcHAgItCf0L7RgdC10YnQsNC10YIgVVJMINGB0LjRgdGC0LXQvNGLIiAiSFRUUFMiCgogICAgICAgIGFkbWluIC0+IGh1bnQuemlwICJ3YXRjaGVzIgogICAgICAgIGFkbWluIC0+IGh1bnQua2liICJ3YXRjaGVzIgogICAgICAgIGFkbWluIC0+IGh1bnQuZ3JhZiAid2F0Y2hlcyIKICAgICAgICBhZG1pbiAtPiBodW50LmNvbnN1bCAid2F0Y2hlcyIKCiAgICAgICAgaHVudC5raWIgLT4gaHVudC5lbGFzdGljICJnZXQgbG9ncyIKICAgICAgICBodW50LmxvZyAtPiBodW50LmVsYXN0aWMgInB1c2ggbG9ncyIKICAgICAgICBodW50LmZpbGViZWF0IC0+IGh1bnQubG9nICJwdXNoIGxvZ3MiCgogICAgICAgIGh1bnQuZ3JhZiAtPiBodW50LnByb20gImdldCBtZXRyaWNzIgoKICAgICAgICBodW50LmcyYyAtPiBodW50LmNvbnN1bCAidXBkYXRlIGNvbmZpZyIKICAgICAgICBodW50LmcyYyAtPiBodW50LmdpdCAicmVhZCBjb25maWciCgoKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgaHVudCAiaHVudE1haW5WaWV3IiB7CiAgICAgICAgICAgIGF1dG9MYXlvdXQgdGIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgImVsZW1lbnQudGFnPT1hZG0iCiAgICAgICAgfQogICAgICAgIGNvbnRhaW5lciBodW50ICJodW50QXJjaGl0ZWN0dXJlIiB7CiAgICAgICAgICAgIGRlZmF1bHQKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgImVsZW1lbnQudGFnPT1hZG0iCiAgICAgICAgfQogICAgICAgIGNvbXBvbmVudCBodW50LmJwbSAiQ2FtdW5kYSJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmYwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRWxlbWVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJidXMiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFBpcGUKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJkYiIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJtaWNyb3NlcnZpY2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJicm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50InsKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "1",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "oper"
-      },
-      "name" : "Оператор",
-      "relationships" : [ {
-        "id" : "81",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "aff96cbf-c6d6-40ed-a654-bebcb48aa962"
-        },
-        "sourceId" : "1",
-        "destinationId" : "6",
-        "description" : "Администрирует бизнес-процессы"
-      }, {
-        "id" : "82",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "8035f3c4-64ea-49b0-954a-c12dc361e759"
-        },
-        "sourceId" : "1",
-        "destinationId" : "8",
-        "description" : "Использует"
-      }, {
-        "id" : "83",
-        "sourceId" : "1",
-        "destinationId" : "7",
-        "description" : "Использует",
-        "linkedRelationshipId" : "82"
-      }, {
-        "id" : "84",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "d1b251cd-76fc-493b-bddf-01f482fd03cc"
-        },
-        "sourceId" : "1",
-        "destinationId" : "9",
-        "description" : "Посещает URL системы",
-        "technology" : "HTTPS"
-      } ],
-      "location" : "Unspecified"
-    }, {
       "id" : "2",
       "tags" : "Element,Person,adm",
       "properties" : {
@@ -59,47 +17,90 @@
       },
       "name" : "Админ",
       "relationships" : [ {
-        "id" : "85",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "295074f9-49dc-483c-84db-b53c1009cdc3"
-        },
-        "sourceId" : "2",
-        "destinationId" : "33",
-        "description" : "watches"
-      }, {
-        "id" : "86",
+        "id" : "110",
         "sourceId" : "2",
         "destinationId" : "7",
         "description" : "watches",
-        "linkedRelationshipId" : "85"
+        "linkedRelationshipId" : "109"
       }, {
-        "id" : "87",
+        "id" : "109",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "7ada0137-d923-4098-97ff-911eb75d03c6"
+          "structurizr.dsl.identifier" : "e4ac89e3-88ba-46fe-a934-d71584e2e393"
         },
         "sourceId" : "2",
-        "destinationId" : "34",
+        "destinationId" : "36",
         "description" : "watches"
       }, {
-        "id" : "88",
+        "id" : "111",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "b775f1c8-5abb-484d-9247-2f450e4c5b5e"
-        },
-        "sourceId" : "2",
-        "destinationId" : "35",
-        "description" : "watches"
-      }, {
-        "id" : "89",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "330ba614-3789-4a47-81b0-cebbee49787d"
+          "structurizr.dsl.identifier" : "5d988dcb-4d86-48f5-a411-b1784c7db570"
         },
         "sourceId" : "2",
         "destinationId" : "37",
         "description" : "watches"
+      }, {
+        "id" : "113",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "fccb084c-796c-4d58-89bc-e23b6ee9a42d"
+        },
+        "sourceId" : "2",
+        "destinationId" : "40",
+        "description" : "watches"
+      }, {
+        "id" : "112",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4e4c168b-e09d-4df0-9135-15d484b4ca4d"
+        },
+        "sourceId" : "2",
+        "destinationId" : "38",
+        "description" : "watches"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "oper"
+      },
+      "name" : "Оператор",
+      "relationships" : [ {
+        "id" : "108",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "1c37e747-e43d-41b9-8794-d3a865e30ef7"
+        },
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Посещает URL системы",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "107",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Использует",
+        "linkedRelationshipId" : "106"
+      }, {
+        "id" : "105",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0b625492-2f24-46a8-95e1-813b4ee4e9c8"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Администрирует бизнес-процессы"
+      }, {
+        "id" : "106",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "6c024d25-9cb7-4c03-bc50-6ce8b6d53e64"
+        },
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Использует"
       } ],
       "location" : "Unspecified"
     } ],
@@ -111,6 +112,48 @@
       },
       "name" : "Потребитель",
       "description" : "Система, забирающая данные",
+      "relationships" : [ {
+        "id" : "84",
+        "sourceId" : "3",
+        "destinationId" : "13",
+        "description" : "Подписка на External Task топик",
+        "technology" : "HTTP",
+        "linkedRelationshipId" : "83"
+      }, {
+        "id" : "83",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "83d09c69-c3fc-4f0c-bfc7-60edbe327e86"
+        },
+        "sourceId" : "3",
+        "destinationId" : "15",
+        "description" : "Подписка на External Task топик",
+        "technology" : "HTTP"
+      }, {
+        "id" : "65",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "42443b20-0184-4656-9b4f-eb261a1dc51a"
+        },
+        "sourceId" : "3",
+        "destinationId" : "23",
+        "description" : "Подписка на события",
+        "technology" : "AMQP, RPC"
+      }, {
+        "id" : "67",
+        "sourceId" : "3",
+        "destinationId" : "7",
+        "description" : "Подписка на события",
+        "technology" : "AMQP, RPC",
+        "linkedRelationshipId" : "65"
+      }, {
+        "id" : "66",
+        "sourceId" : "3",
+        "destinationId" : "21",
+        "description" : "Подписка на события",
+        "technology" : "AMQP, RPC",
+        "linkedRelationshipId" : "65"
+      } ],
       "location" : "Unspecified",
       "documentation" : { }
     }, {
@@ -124,104 +167,53 @@
       "location" : "Unspecified",
       "documentation" : { }
     }, {
-      "id" : "5",
-      "tags" : "Element,Software System,external",
-      "properties" : {
-        "structurizr.dsl.identifier" : "source"
-      },
-      "name" : "Источник",
-      "description" : "Система, в которую обращатся за данными",
-      "location" : "Unspecified",
-      "documentation" : { }
-    }, {
-      "id" : "6",
-      "tags" : "Element,Software System,desktop",
-      "properties" : {
-        "structurizr.dsl.identifier" : "modeler"
-      },
-      "name" : "Camunda Modeler",
-      "description" : "Графичекий инструмент моделирования процессов",
-      "location" : "Unspecified",
-      "documentation" : { }
-    }, {
       "id" : "7",
       "tags" : "Element,Software System",
       "properties" : {
         "structurizr.dsl.identifier" : "hunt"
       },
-      "name" : "Охота.РФ",
+      "name" : "Охотуправление",
+      "relationships" : [ {
+        "id" : "82",
+        "sourceId" : "7",
+        "destinationId" : "5",
+        "technology" : "JSON/HTTP",
+        "linkedRelationshipId" : "80"
+      } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "20",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.bpmdb"
-        },
-        "name" : "Camunda DB",
-        "description" : "Хранение процессов и их инстансов",
-        "technology" : "PostgreSQL",
-        "documentation" : { }
-      }, {
-        "id" : "36",
+        "id" : "40",
         "tags" : "Element,Container,adm",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.prom"
+          "structurizr.dsl.identifier" : "hunt.consul"
         },
-        "name" : "Prometheus",
-        "description" : "Сборщик метрик с сервисов",
+        "name" : "Consul",
+        "description" : "Service Discovery & Distributed Config",
         "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,browser",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.spa"
+        },
+        "name" : "Клиентское приложение",
+        "description" : "Single-Page Application",
+        "relationships" : [ {
+          "id" : "46",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "a9ab5dec-3ce0-4234-bd49-4c8e228d6876"
+          },
+          "sourceId" : "8",
+          "destinationId" : "11",
+          "description" : "Вызовы API",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "JavaScript and D3.js",
         "documentation" : { }
       }, {
         "id" : "38",
-        "tags" : "Element,Container,adm",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.g2c"
-        },
-        "name" : "git2consul",
-        "description" : "Синхронизирует конфиги сервисов с git",
-        "relationships" : [ {
-          "id" : "94",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "d2e87be9-f4ee-438a-9772-67257272411e"
-          },
-          "sourceId" : "38",
-          "destinationId" : "37",
-          "description" : "update config"
-        }, {
-          "id" : "95",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "ed981aef-e6f8-4fc1-831b-955714df6c93"
-          },
-          "sourceId" : "38",
-          "destinationId" : "39",
-          "description" : "read config"
-        } ],
-        "group" : "Admin Services",
-        "documentation" : { }
-      }, {
-        "id" : "41",
-        "tags" : "Element,Container,adm",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.log"
-        },
-        "name" : "Logstash",
-        "description" : "Обработчик логов",
-        "relationships" : [ {
-          "id" : "91",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "8b1c9be1-d56e-48ab-bd7a-7f2c17a3aec8"
-          },
-          "sourceId" : "41",
-          "destinationId" : "40",
-          "description" : "push logs"
-        } ],
-        "group" : "Admin Services",
-        "documentation" : { }
-      }, {
-        "id" : "35",
         "tags" : "Element,Container,adm",
         "properties" : {
           "structurizr.dsl.identifier" : "hunt.graf"
@@ -229,114 +221,480 @@
         "name" : "Grafana",
         "description" : "Построение графиков метрик",
         "relationships" : [ {
-          "id" : "93",
+          "id" : "117",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "00980af3-ad6b-4939-ac9a-49b902d727d0"
+            "structurizr.dsl.identifier" : "f2744a68-c11f-461a-bd74-4b9f65d257a7"
           },
-          "sourceId" : "35",
-          "destinationId" : "36",
+          "sourceId" : "38",
+          "destinationId" : "39",
           "description" : "get metrics"
         } ],
         "group" : "Admin Services",
         "documentation" : { }
       }, {
-        "id" : "39",
+        "id" : "44",
         "tags" : "Element,Container,adm",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.git"
+          "structurizr.dsl.identifier" : "hunt.log"
         },
-        "name" : "GitRepo",
-        "description" : "Репозиторий конфигураций сервисов",
+        "name" : "Logstash",
+        "description" : "Обработчик логов",
+        "relationships" : [ {
+          "id" : "115",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "11eb4e1e-2db0-4d79-b788-f28e5515a11c"
+          },
+          "sourceId" : "44",
+          "destinationId" : "43",
+          "description" : "push logs"
+        } ],
         "group" : "Admin Services",
         "documentation" : { }
       }, {
-        "id" : "10",
-        "tags" : "Element,Container",
+        "id" : "24",
+        "tags" : "Element,Container,microservice",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.redis"
+          "structurizr.dsl.identifier" : "hunt.metasrv"
         },
-        "name" : "Database",
-        "description" : "Хранилище информации о сессиях пользователей",
-        "technology" : "Redis",
+        "name" : "Meta",
+        "description" : "Сервис управления мета-данными",
+        "relationships" : [ {
+          "id" : "87",
+          "sourceId" : "24",
+          "destinationId" : "15",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "85"
+        }, {
+          "id" : "88",
+          "sourceId" : "24",
+          "destinationId" : "13",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "85"
+        } ],
+        "group" : "Microservices",
+        "technology" : "Java",
+        "components" : [ {
+          "id" : "26",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.metasrv.exttaskclient"
+          },
+          "name" : "External Task Client",
+          "description" : "Забирает (fetch/lock) топики из Camunda, реализует интерфейсы handle() и complete()",
+          "relationships" : [ {
+            "id" : "86",
+            "sourceId" : "26",
+            "destinationId" : "13",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP",
+            "linkedRelationshipId" : "85"
+          }, {
+            "id" : "85",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "61d81b57-30a4-47c8-91f6-9083e00945db"
+            },
+            "sourceId" : "26",
+            "destinationId" : "15",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "27",
+          "tags" : "Element,Component,lib",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.metasrv.amqpadapter"
+          },
+          "name" : "AMQP-адаптер",
+          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "25",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.metasrv.api"
+          },
+          "name" : "REST API",
+          "description" : "API сервиса управления мета-данными",
+          "technology" : "Java",
+          "documentation" : { }
+        } ],
         "documentation" : { }
       }, {
-        "id" : "11",
+        "id" : "13",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.gateway"
+          "structurizr.dsl.identifier" : "hunt.bpm"
         },
-        "name" : "API gateway",
-        "description" : "REST интерфейс. Маршрутизация запросов",
+        "name" : "Camunda",
+        "description" : "Сервис бизнес-процессов. Оркестратор API и сервисов",
         "relationships" : [ {
-          "id" : "45",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "54517289-c5eb-48d7-9ea3-15b11289556a"
-          },
-          "sourceId" : "11",
-          "destinationId" : "12",
-          "description" : "Операции, запускающие процесс",
-          "technology" : "JSON/HTTP"
+          "id" : "79",
+          "sourceId" : "13",
+          "destinationId" : "32",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "76"
         }, {
-          "id" : "48",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "6293f2ab-44ec-4b9a-a520-5fac2854c056"
-          },
-          "sourceId" : "11",
+          "id" : "81",
+          "sourceId" : "13",
+          "destinationId" : "5",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "80"
+        }, {
+          "id" : "99",
+          "sourceId" : "13",
+          "destinationId" : "20",
+          "description" : "Соединяется с БД",
+          "technology" : "JDBC",
+          "linkedRelationshipId" : "98"
+        }, {
+          "id" : "78",
+          "sourceId" : "13",
+          "destinationId" : "33",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "76"
+        }, {
+          "id" : "75",
+          "sourceId" : "13",
+          "destinationId" : "28",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "72"
+        }, {
+          "id" : "74",
+          "sourceId" : "13",
+          "destinationId" : "29",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "72"
+        }, {
+          "id" : "70",
+          "sourceId" : "13",
           "destinationId" : "25",
-          "technology" : "JSON/HTTP"
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "68"
         }, {
-          "id" : "49",
-          "sourceId" : "11",
+          "id" : "71",
+          "sourceId" : "13",
           "destinationId" : "24",
           "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "48"
+          "linkedRelationshipId" : "68"
         }, {
-          "id" : "50",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "9dc886c9-44f0-425a-810c-6542a0416ad4"
-          },
-          "sourceId" : "11",
-          "destinationId" : "28",
-          "technology" : "JSON/HTTP"
+          "id" : "61",
+          "sourceId" : "13",
+          "destinationId" : "22",
+          "description" : "Публикует событие",
+          "technology" : "AMQP",
+          "linkedRelationshipId" : "59"
         }, {
-          "id" : "51",
-          "sourceId" : "11",
-          "destinationId" : "27",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "50"
-        }, {
-          "id" : "52",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "ca2995e3-62c7-4401-a53a-7b05394d21b2"
-          },
-          "sourceId" : "11",
-          "destinationId" : "31",
-          "technology" : "JSON/HTTP"
-        }, {
-          "id" : "53",
-          "sourceId" : "11",
-          "destinationId" : "30",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "52"
-        }, {
-          "id" : "54",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "046ed335-20b5-4acd-8ff9-b1750a33b943"
-          },
-          "sourceId" : "11",
-          "destinationId" : "10",
-          "description" : "Кэширует"
+          "id" : "62",
+          "sourceId" : "13",
+          "destinationId" : "21",
+          "description" : "Публикует событие",
+          "technology" : "AMQP",
+          "linkedRelationshipId" : "59"
         } ],
-        "technology" : "Java",
+        "technology" : "Java, Maven",
+        "components" : [ {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.httpconnector"
+          },
+          "name" : "HTTP коннектор",
+          "description" : "Синхронные ServiceTask",
+          "relationships" : [ {
+            "id" : "77",
+            "sourceId" : "19",
+            "destinationId" : "32",
+            "technology" : "JSON/HTTP",
+            "linkedRelationshipId" : "76"
+          }, {
+            "id" : "80",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "ebc9b217-8e01-4844-8110-13c2736d1948"
+            },
+            "sourceId" : "19",
+            "destinationId" : "5",
+            "technology" : "JSON/HTTP"
+          }, {
+            "id" : "76",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "73dff021-0b99-45f6-83c6-25088374ad21"
+            },
+            "sourceId" : "19",
+            "destinationId" : "33",
+            "technology" : "JSON/HTTP"
+          }, {
+            "id" : "73",
+            "sourceId" : "19",
+            "destinationId" : "28",
+            "technology" : "JSON/HTTP",
+            "linkedRelationshipId" : "72"
+          }, {
+            "id" : "69",
+            "sourceId" : "19",
+            "destinationId" : "24",
+            "technology" : "JSON/HTTP",
+            "linkedRelationshipId" : "68"
+          }, {
+            "id" : "72",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "24c32e98-d6dd-417e-b53b-90d5285341d6"
+            },
+            "sourceId" : "19",
+            "destinationId" : "29",
+            "technology" : "JSON/HTTP"
+          }, {
+            "id" : "68",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "b0ff2588-0052-4d7d-ae97-d33baaa29a20"
+            },
+            "sourceId" : "19",
+            "destinationId" : "25",
+            "technology" : "JSON/HTTP"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.api"
+          },
+          "name" : "Oбщедоступный API",
+          "relationships" : [ {
+            "id" : "103",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "f7d357c8-9ccb-4391-b8f3-1f8288772b61"
+            },
+            "sourceId" : "14",
+            "destinationId" : "16",
+            "description" : "Query API"
+          }, {
+            "id" : "104",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "3322e116-50de-4e06-a760-a5c6fd7170ab"
+            },
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Services API"
+          } ],
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.dbadapter"
+          },
+          "name" : "БД адаптер",
+          "description" : "Persistence Layer",
+          "relationships" : [ {
+            "id" : "98",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "615948d8-3021-49ba-ba54-d6d641ea1510"
+            },
+            "sourceId" : "16",
+            "destinationId" : "20",
+            "description" : "Соединяется с БД",
+            "technology" : "JDBC"
+          } ],
+          "technology" : "Java, SQL",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.jober"
+          },
+          "name" : "Job Executor",
+          "description" : "Выполнение асинхронных задач",
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.engine"
+          },
+          "name" : "Процессный движок",
+          "description" : "Process Repository, Runtime Process Interaction, Task Management",
+          "relationships" : [ {
+            "id" : "102",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "f50db161-3b06-4f6c-9b2a-1b2361e7d061"
+            },
+            "sourceId" : "15",
+            "destinationId" : "19",
+            "description" : "Использует для REST-запросов в процессах"
+          }, {
+            "id" : "101",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "a961a82d-adb7-453f-ad5f-06e43e813137"
+            },
+            "sourceId" : "15",
+            "destinationId" : "18",
+            "description" : "Использует для отправки сообщений по событиям в процессах"
+          }, {
+            "id" : "97",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "fb0d4b20-a2bc-4a9f-9cbc-2992ea336f91"
+            },
+            "sourceId" : "15",
+            "destinationId" : "17",
+            "description" : "Оптимизирует выполнение процессов"
+          }, {
+            "id" : "100",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "49bbe423-c295-413c-87b1-0a629e2ef994"
+            },
+            "sourceId" : "15",
+            "destinationId" : "16",
+            "description" : "Обращается к данным"
+          } ],
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.bpm.msgadapter"
+          },
+          "name" : "AMQP коннектор",
+          "description" : "Обеспечиват AMQP-интерфейс к брокеру",
+          "relationships" : [ {
+            "id" : "59",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "e41def78-2fb3-4abc-a7b9-07817c02985e"
+            },
+            "sourceId" : "18",
+            "destinationId" : "22",
+            "description" : "Публикует событие",
+            "technology" : "AMQP"
+          }, {
+            "id" : "60",
+            "sourceId" : "18",
+            "destinationId" : "21",
+            "description" : "Публикует событие",
+            "technology" : "AMQP",
+            "linkedRelationshipId" : "59"
+          } ],
+          "technology" : "Java, Spring bean, AMQP",
+          "documentation" : { }
+        } ],
         "documentation" : { }
       }, {
-        "id" : "33",
+        "id" : "32",
+        "tags" : "Element,Container,microservice",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.registrysrv"
+        },
+        "name" : "Registry",
+        "description" : "Сервис реестров",
+        "relationships" : [ {
+          "id" : "95",
+          "sourceId" : "32",
+          "destinationId" : "15",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "93"
+        }, {
+          "id" : "96",
+          "sourceId" : "32",
+          "destinationId" : "13",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "93"
+        } ],
+        "group" : "Microservices",
+        "technology" : "Java",
+        "components" : [ {
+          "id" : "33",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.registrysrv.api"
+          },
+          "name" : "REST API",
+          "description" : "API сервиса реестров",
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "34",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.registrysrv.exttaskclient"
+          },
+          "name" : "External Task Client",
+          "description" : "Забирает (fetch/lock) топики из Camunda, реализует интерфейсы handle() и complete()",
+          "relationships" : [ {
+            "id" : "94",
+            "sourceId" : "34",
+            "destinationId" : "13",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP",
+            "linkedRelationshipId" : "93"
+          }, {
+            "id" : "93",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "99cb2e46-f0be-40ea-8218-ed36d45e9260"
+            },
+            "sourceId" : "34",
+            "destinationId" : "15",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "35",
+          "tags" : "Element,Component,lib",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.registrysrv.amqpadapter"
+          },
+          "name" : "AMQP-адаптер",
+          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
+          "technology" : "Java",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "45",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.filebeat"
+        },
+        "name" : "Filebeat",
+        "description" : "Сборщик логов докер-контейнеров",
+        "relationships" : [ {
+          "id" : "116",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "844bf4c9-9ec6-4946-bc50-827b5184c6b7"
+          },
+          "sourceId" : "45",
+          "destinationId" : "44",
+          "description" : "push logs"
+        } ],
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "36",
         "tags" : "Element,Container,adm",
         "properties" : {
           "structurizr.dsl.identifier" : "hunt.zip"
@@ -346,23 +704,162 @@
         "group" : "Admin Services",
         "documentation" : { }
       }, {
-        "id" : "34",
+        "id" : "43",
         "tags" : "Element,Container,adm",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.kib"
+          "structurizr.dsl.identifier" : "hunt.elastic"
         },
-        "name" : "Kibana",
-        "description" : "Просмотр логов микросервисов",
+        "name" : "ElasticSearch",
+        "description" : "Хранение логов + движок поиска",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.webapp"
+        },
+        "name" : "WEB приложение",
+        "description" : "Предоставляет статический контент и SPA",
         "relationships" : [ {
-          "id" : "90",
+          "id" : "47",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "8d46d02c-8f31-4078-830e-77236a60a73d"
+            "structurizr.dsl.identifier" : "3dbe75a5-e1a3-47ce-badb-6e39834d266c"
           },
-          "sourceId" : "34",
-          "destinationId" : "40",
-          "description" : "get logs"
+          "sourceId" : "9",
+          "destinationId" : "8",
+          "description" : "Доставляет frontend-приложение до браузера пользователя"
         } ],
+        "technology" : "Nginx",
+        "documentation" : { }
+      }, {
+        "id" : "28",
+        "tags" : "Element,Container,microservice",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.ticketssrv"
+        },
+        "name" : "Tickets",
+        "description" : "Сервис охотбилетов",
+        "relationships" : [ {
+          "id" : "91",
+          "sourceId" : "28",
+          "destinationId" : "15",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "89"
+        }, {
+          "id" : "92",
+          "sourceId" : "28",
+          "destinationId" : "13",
+          "description" : "Подписка на External Task топик",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "89"
+        } ],
+        "group" : "Microservices",
+        "technology" : "Java",
+        "components" : [ {
+          "id" : "30",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.ticketssrv.exttaskclient"
+          },
+          "name" : "External Task Client",
+          "description" : "Забирает (fetch/lock) топики из Camunda, реализует интерфейсы handle() и complete()",
+          "relationships" : [ {
+            "id" : "90",
+            "sourceId" : "30",
+            "destinationId" : "13",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP",
+            "linkedRelationshipId" : "89"
+          }, {
+            "id" : "89",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c6678b42-435a-474e-a042-82aaf77a0787"
+            },
+            "sourceId" : "30",
+            "destinationId" : "15",
+            "description" : "Подписка на External Task топик",
+            "technology" : "HTTP"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "31",
+          "tags" : "Element,Component,lib",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.ticketssrv.amqpadapter"
+          },
+          "name" : "AMQP-адаптер",
+          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
+          "technology" : "Java",
+          "documentation" : { }
+        }, {
+          "id" : "29",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "hunt.ticketssrv.api"
+          },
+          "name" : "REST API",
+          "description" : "API сервиса охотбилетов",
+          "technology" : "Java",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.bpmclient"
+        },
+        "name" : "Camunda client",
+        "description" : "Запускает выполнение процессов",
+        "relationships" : [ {
+          "id" : "49",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "079c18d2-cfaf-41a3-9ad2-478f84af17ff"
+          },
+          "sourceId" : "12",
+          "destinationId" : "14",
+          "description" : "Запускает процесс",
+          "technology" : "JSON/HTTP"
+        }, {
+          "id" : "50",
+          "sourceId" : "12",
+          "destinationId" : "13",
+          "description" : "Запускает процесс",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "49"
+        }, {
+          "id" : "63",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "721d7948-d7b5-4872-9bc6-0e1bffe58286"
+          },
+          "sourceId" : "12",
+          "destinationId" : "23",
+          "description" : "Забирает событие",
+          "technology" : "AMQP, RPC"
+        }, {
+          "id" : "64",
+          "sourceId" : "12",
+          "destinationId" : "21",
+          "description" : "Забирает событие",
+          "technology" : "AMQP, RPC",
+          "linkedRelationshipId" : "63"
+        } ],
+        "technology" : "Java",
+        "documentation" : { }
+      }, {
+        "id" : "42",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.git"
+        },
+        "name" : "GitRepo",
+        "description" : "Репозиторий конфигураций сервисов",
         "group" : "Admin Services",
         "documentation" : { }
       }, {
@@ -393,10 +890,10 @@
           "name" : "Обменник",
           "description" : "Маршрутизиурет входящие события",
           "relationships" : [ {
-            "id" : "55",
+            "id" : "58",
             "tags" : "Relationship,msg",
             "properties" : {
-              "structurizr.dsl.identifier" : "2354fd17-5763-409e-b3fb-9e1cb008963c"
+              "structurizr.dsl.identifier" : "bbcbb728-bcd4-4e85-a32f-3760ee8380e2"
             },
             "sourceId" : "22",
             "destinationId" : "23",
@@ -408,477 +905,180 @@
         } ],
         "documentation" : { }
       }, {
-        "id" : "24",
+        "id" : "11",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.metasrv"
+          "structurizr.dsl.identifier" : "hunt.gateway"
         },
-        "name" : "Meta",
-        "description" : "Сервис управления мета-данными",
-        "group" : "Microservices",
-        "technology" : "Java",
-        "components" : [ {
-          "id" : "25",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.metasrv.api"
-          },
-          "name" : "REST API",
-          "description" : "API сервиса управления мета-данными",
-          "technology" : "Java",
-          "documentation" : { }
-        }, {
-          "id" : "26",
-          "tags" : "Element,Component,lib",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.metasrv.amqpadapter"
-          },
-          "name" : "AMQP-адаптер",
-          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
-          "technology" : "Java",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "30",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.registrysrv"
-        },
-        "name" : "Registry",
-        "description" : "Сервис реестров",
-        "group" : "Microservices",
-        "technology" : "Java",
-        "components" : [ {
-          "id" : "31",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.registrysrv.api"
-          },
-          "name" : "REST API",
-          "description" : "API сервиса реестров",
-          "technology" : "Java",
-          "documentation" : { }
-        }, {
-          "id" : "32",
-          "tags" : "Element,Component,lib",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.registrysrv.amqpadapter"
-          },
-          "name" : "AMQP-адаптер",
-          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
-          "technology" : "Java",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "12",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.bpmclient"
-        },
-        "name" : "Camunda client",
-        "description" : "Запускает выполнение процессов",
+        "name" : "API gateway",
+        "description" : "REST интерфейс. Маршрутизация запросов",
         "relationships" : [ {
-          "id" : "46",
+          "id" : "56",
+          "sourceId" : "11",
+          "destinationId" : "32",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "55"
+        }, {
+          "id" : "57",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "d7723314-5cf1-4880-a0b0-b372bdff3b28"
+            "structurizr.dsl.identifier" : "6c29d54e-7d5a-4e7b-9451-c846ea1fcc8f"
           },
-          "sourceId" : "12",
-          "destinationId" : "14",
-          "description" : "Запускает процесс",
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Кэширует"
+        }, {
+          "id" : "55",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "fd6504dd-cd4e-4d04-b4bc-48e70ccc623b"
+          },
+          "sourceId" : "11",
+          "destinationId" : "33",
           "technology" : "JSON/HTTP"
         }, {
-          "id" : "47",
-          "sourceId" : "12",
-          "destinationId" : "13",
-          "description" : "Запускает процесс",
+          "id" : "54",
+          "sourceId" : "11",
+          "destinationId" : "28",
           "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "46"
+          "linkedRelationshipId" : "53"
         }, {
-          "id" : "60",
+          "id" : "48",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "77cdaec1-3128-4bad-91a0-9353a8b912df"
+            "structurizr.dsl.identifier" : "5db57bb8-d797-4c89-9ef1-494582a536a5"
           },
-          "sourceId" : "12",
-          "destinationId" : "23",
-          "description" : "Забирает событие",
-          "technology" : "AMQP, RPC"
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Операции, запускающие процесс",
+          "technology" : "JSON/HTTP"
         }, {
-          "id" : "61",
-          "sourceId" : "12",
-          "destinationId" : "21",
-          "description" : "Забирает событие",
-          "technology" : "AMQP, RPC",
-          "linkedRelationshipId" : "60"
+          "id" : "53",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "8be0648a-41ca-42fa-9a1a-47b9f9595766"
+          },
+          "sourceId" : "11",
+          "destinationId" : "29",
+          "technology" : "JSON/HTTP"
+        }, {
+          "id" : "51",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2511a73f-34ac-4494-93ab-15d46588c5f5"
+          },
+          "sourceId" : "11",
+          "destinationId" : "25",
+          "technology" : "JSON/HTTP"
+        }, {
+          "id" : "52",
+          "sourceId" : "11",
+          "destinationId" : "24",
+          "technology" : "JSON/HTTP",
+          "linkedRelationshipId" : "51"
         } ],
         "technology" : "Java",
         "documentation" : { }
       }, {
-        "id" : "27",
-        "tags" : "Element,Container",
+        "id" : "39",
+        "tags" : "Element,Container,adm",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.ticketssrv"
+          "structurizr.dsl.identifier" : "hunt.prom"
         },
-        "name" : "Tickets",
-        "description" : "Сервис охотбилетов",
-        "group" : "Microservices",
-        "technology" : "Java",
-        "components" : [ {
-          "id" : "29",
-          "tags" : "Element,Component,lib",
+        "name" : "Prometheus",
+        "description" : "Сборщик метрик с сервисов",
+        "group" : "Admin Services",
+        "documentation" : { }
+      }, {
+        "id" : "41",
+        "tags" : "Element,Container,adm",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.g2c"
+        },
+        "name" : "git2consul",
+        "description" : "Синхронизирует конфиги сервисов с git",
+        "relationships" : [ {
+          "id" : "118",
+          "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "hunt.ticketssrv.amqpadapter"
+            "structurizr.dsl.identifier" : "e5d6e586-6673-4d2c-8f43-102a33d0ee9a"
           },
-          "name" : "AMQP-адаптер",
-          "description" : "Обеспечивает функции публикатора, подписчика, RPC-клиента и RPC-сервера",
-          "technology" : "Java",
-          "documentation" : { }
+          "sourceId" : "41",
+          "destinationId" : "40",
+          "description" : "update config"
         }, {
-          "id" : "28",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.ticketssrv.api"
-          },
-          "name" : "REST API",
-          "description" : "API сервиса охотбилетов",
-          "technology" : "Java",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.webapp"
-        },
-        "name" : "WEB приложение",
-        "description" : "Предоставляет статический контент и SPA",
-        "relationships" : [ {
-          "id" : "44",
+          "id" : "119",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "55d80cf4-fd16-402c-8eb7-cf56933c0eb7"
+            "structurizr.dsl.identifier" : "809c32ec-6247-4ea8-9f60-56fe9486ee2c"
           },
-          "sourceId" : "9",
-          "destinationId" : "8",
-          "description" : "Доставляет frontend-приложение до браузера пользователя"
+          "sourceId" : "41",
+          "destinationId" : "42",
+          "description" : "read config"
         } ],
-        "technology" : "Nginx",
+        "group" : "Admin Services",
         "documentation" : { }
       }, {
-        "id" : "8",
-        "tags" : "Element,Container,Browser",
+        "id" : "10",
+        "tags" : "Element,Container,db",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.spa"
+          "structurizr.dsl.identifier" : "hunt.redis"
         },
-        "name" : "Клиентское приложение",
-        "description" : "Single-Page Application",
-        "relationships" : [ {
-          "id" : "43",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "81233b09-7d3e-4174-aa3c-2a64d57b1a0f"
-          },
-          "sourceId" : "8",
-          "destinationId" : "11",
-          "description" : "Вызовы API",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "JavaScript and D3.js",
+        "name" : "Database",
+        "description" : "Хранилище информации о сессиях пользователей",
+        "technology" : "Redis",
         "documentation" : { }
       }, {
         "id" : "37",
         "tags" : "Element,Container,adm",
         "properties" : {
-          "structurizr.dsl.identifier" : "hunt.consul"
+          "structurizr.dsl.identifier" : "hunt.kib"
         },
-        "name" : "Consul",
-        "description" : "Service Discovery & Distributed Config",
-        "group" : "Admin Services",
-        "documentation" : { }
-      }, {
-        "id" : "13",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.bpm"
-        },
-        "name" : "Camunda",
-        "description" : "Сервис бизнес-процессов. Оркестратор API и сервисов",
+        "name" : "Kibana",
+        "description" : "Просмотр логов микросервисов",
         "relationships" : [ {
-          "id" : "58",
-          "sourceId" : "13",
-          "destinationId" : "22",
-          "description" : "Публикует событие",
-          "technology" : "AMQP",
-          "linkedRelationshipId" : "56"
-        }, {
-          "id" : "59",
-          "sourceId" : "13",
-          "destinationId" : "21",
-          "description" : "Публикует событие",
-          "technology" : "AMQP",
-          "linkedRelationshipId" : "56"
-        }, {
-          "id" : "64",
-          "sourceId" : "13",
-          "destinationId" : "25",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "62"
-        }, {
-          "id" : "65",
-          "sourceId" : "13",
-          "destinationId" : "24",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "62"
-        }, {
-          "id" : "68",
-          "sourceId" : "13",
-          "destinationId" : "28",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "66"
-        }, {
-          "id" : "69",
-          "sourceId" : "13",
-          "destinationId" : "27",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "66"
-        }, {
-          "id" : "72",
-          "sourceId" : "13",
-          "destinationId" : "31",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "70"
-        }, {
-          "id" : "73",
-          "sourceId" : "13",
-          "destinationId" : "30",
-          "technology" : "JSON/HTTP",
-          "linkedRelationshipId" : "70"
-        }, {
-          "id" : "76",
-          "sourceId" : "13",
-          "destinationId" : "20",
-          "description" : "Соединяется с БД",
-          "technology" : "JDBC",
-          "linkedRelationshipId" : "75"
-        } ],
-        "technology" : "Java, Maven",
-        "components" : [ {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.msgadapter"
-          },
-          "name" : "AMQP коннектор",
-          "description" : "Обеспечиват AMQP-интерфейс к брокеру",
-          "relationships" : [ {
-            "id" : "56",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "f2955e07-3532-4453-91c1-09d0e7abf5c8"
-            },
-            "sourceId" : "18",
-            "destinationId" : "22",
-            "description" : "Публикует событие",
-            "technology" : "AMQP"
-          }, {
-            "id" : "57",
-            "sourceId" : "18",
-            "destinationId" : "21",
-            "description" : "Публикует событие",
-            "technology" : "AMQP",
-            "linkedRelationshipId" : "56"
-          } ],
-          "technology" : "Java, Spring bean, AMQP",
-          "documentation" : { }
-        }, {
-          "id" : "19",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.httpconnector"
-          },
-          "name" : "HTTP коннектор",
-          "description" : "HTTP-интерфейс External tasks",
-          "relationships" : [ {
-            "id" : "62",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "0ab902c0-833c-404a-825c-d43ce9960970"
-            },
-            "sourceId" : "19",
-            "destinationId" : "25",
-            "technology" : "JSON/HTTP"
-          }, {
-            "id" : "63",
-            "sourceId" : "19",
-            "destinationId" : "24",
-            "technology" : "JSON/HTTP",
-            "linkedRelationshipId" : "62"
-          }, {
-            "id" : "66",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "9d464b14-38da-4e92-848b-af43fee76ea3"
-            },
-            "sourceId" : "19",
-            "destinationId" : "28",
-            "technology" : "JSON/HTTP"
-          }, {
-            "id" : "67",
-            "sourceId" : "19",
-            "destinationId" : "27",
-            "technology" : "JSON/HTTP",
-            "linkedRelationshipId" : "66"
-          }, {
-            "id" : "70",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "e05091a4-a10b-4510-8732-18a992a7ab19"
-            },
-            "sourceId" : "19",
-            "destinationId" : "31",
-            "technology" : "JSON/HTTP"
-          }, {
-            "id" : "71",
-            "sourceId" : "19",
-            "destinationId" : "30",
-            "technology" : "JSON/HTTP",
-            "linkedRelationshipId" : "70"
-          } ],
-          "documentation" : { }
-        }, {
-          "id" : "15",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.engine"
-          },
-          "name" : "Процессный движок",
-          "description" : "Process Repository, Runtime Process Interaction, Task Management",
-          "relationships" : [ {
-            "id" : "74",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "8b802c8e-dea3-4d70-887d-3008825598b4"
-            },
-            "sourceId" : "15",
-            "destinationId" : "17",
-            "description" : "Оптимизирует выполнение процессов"
-          }, {
-            "id" : "77",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "055d2104-5ddb-4cf5-b628-e9ed4e1b4fb8"
-            },
-            "sourceId" : "15",
-            "destinationId" : "16",
-            "description" : "Обращается к данным"
-          }, {
-            "id" : "78",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "7d190289-ebcf-4dc8-88bc-59f34975e35b"
-            },
-            "sourceId" : "15",
-            "destinationId" : "18",
-            "description" : "Использует для отправки сообщений по событиям в процессах"
-          } ],
-          "technology" : "Java",
-          "documentation" : { }
-        }, {
-          "id" : "14",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.api"
-          },
-          "name" : "Oбщедоступный API",
-          "relationships" : [ {
-            "id" : "79",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "f0a73aba-e0a7-470f-84f5-cdb6d70b4d9f"
-            },
-            "sourceId" : "14",
-            "destinationId" : "16",
-            "description" : "Query API"
-          }, {
-            "id" : "80",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "4ff1a151-4a57-4476-add5-b6dc8deb24da"
-            },
-            "sourceId" : "14",
-            "destinationId" : "15",
-            "description" : "Services API"
-          } ],
-          "technology" : "Java",
-          "documentation" : { }
-        }, {
-          "id" : "16",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.dbadapter"
-          },
-          "name" : "БД адаптер",
-          "description" : "Persistence Layer",
-          "relationships" : [ {
-            "id" : "75",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "28103f1a-d062-40fa-b8eb-0a6b3417d501"
-            },
-            "sourceId" : "16",
-            "destinationId" : "20",
-            "description" : "Соединяется с БД",
-            "technology" : "JDBC"
-          } ],
-          "technology" : "Java, SQL",
-          "documentation" : { }
-        }, {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "hunt.bpm.jober"
-          },
-          "name" : "Job Executor",
-          "description" : "Выполнение асинхронных задач",
-          "technology" : "Java",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "40",
-        "tags" : "Element,Container,adm",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.elastic"
-        },
-        "name" : "ElasticSearch",
-        "description" : "Хранение логов + движок поиска",
-        "group" : "Admin Services",
-        "documentation" : { }
-      }, {
-        "id" : "42",
-        "tags" : "Element,Container,adm",
-        "properties" : {
-          "structurizr.dsl.identifier" : "hunt.filebeat"
-        },
-        "name" : "Filebeat",
-        "description" : "Сборщик логов докер-контейнеров",
-        "relationships" : [ {
-          "id" : "92",
+          "id" : "114",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "a7027bb2-c21b-4d05-9aee-8f272589eb86"
+            "structurizr.dsl.identifier" : "28336157-63c9-449a-a155-9523e6991821"
           },
-          "sourceId" : "42",
-          "destinationId" : "41",
-          "description" : "push logs"
+          "sourceId" : "37",
+          "destinationId" : "43",
+          "description" : "get logs"
         } ],
         "group" : "Admin Services",
         "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "hunt.bpmdb"
+        },
+        "name" : "Camunda DB",
+        "description" : "Хранение процессов и их инстансов",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
       } ],
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,external",
+      "properties" : {
+        "structurizr.dsl.identifier" : "source"
+      },
+      "name" : "Источник",
+      "description" : "Система, в которую обращатся за данными",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,desktop",
+      "properties" : {
+        "structurizr.dsl.identifier" : "modeler"
+      },
+      "name" : "Camunda Modeler",
+      "description" : "Графичекий инструмент моделирования процессов",
+      "location" : "Unspecified",
       "documentation" : { }
     } ]
   },
@@ -899,10 +1099,22 @@
       },
       "enterpriseBoundaryVisible" : true,
       "relationships" : [ {
-        "id" : "83"
+        "id" : "82"
+      }, {
+        "id" : "107"
+      }, {
+        "id" : "67"
       } ],
       "elements" : [ {
         "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
         "x" : 0,
         "y" : 0
       }, {
@@ -915,120 +1127,315 @@
       "key" : "huntArchitecture",
       "order" : 2,
       "softwareSystemId" : "7",
-      "paperSize" : "A3_Portrait",
       "dimensions" : {
-        "width" : 3508,
-        "height" : 4961
+        "width" : 3390,
+        "height" : 4504
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "relationships" : [ {
-        "id" : "82"
-      }, {
-        "id" : "61"
-      }, {
-        "id" : "51",
+        "id" : "71",
         "vertices" : [ {
-          "x" : 600,
-          "y" : 1535
-        }, {
-          "x" : 595,
-          "y" : 3350
+          "x" : 1405,
+          "y" : 3560
         } ]
       }, {
-        "id" : "73"
-      }, {
-        "id" : "53",
+        "id" : "81",
         "vertices" : [ {
-          "x" : 600,
-          "y" : 1535
+          "x" : 2317,
+          "y" : 3046
+        } ]
+      }, {
+        "id" : "92",
+        "vertices" : [ {
+          "x" : 1302,
+          "y" : 3307
+        } ]
+      }, {
+        "id" : "50"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "52",
+        "vertices" : [ {
+          "x" : 473,
+          "y" : 1724
         }, {
-          "x" : 595,
-          "y" : 2865
+          "x" : 473,
+          "y" : 3979
         } ]
       }, {
         "id" : "84"
       }, {
-        "id" : "65"
+        "id" : "75",
+        "vertices" : [ {
+          "x" : 1235,
+          "y" : 3240
+        } ]
       }, {
-        "id" : "76"
+        "id" : "96",
+        "vertices" : [ {
+          "x" : 1215,
+          "y" : 3030
+        } ]
       }, {
-        "id" : "54"
+        "id" : "64"
       }, {
-        "id" : "43"
+        "id" : "54",
+        "vertices" : [ {
+          "x" : 478,
+          "y" : 1724
+        }, {
+          "x" : 473,
+          "y" : 3539
+        } ]
       }, {
-        "id" : "44"
+        "id" : "108",
+        "vertices" : [ {
+          "x" : 1009,
+          "y" : 877
+        } ]
       }, {
-        "id" : "45"
+        "id" : "66"
       }, {
-        "id" : "69"
+        "id" : "56",
+        "vertices" : [ {
+          "x" : 478,
+          "y" : 1724
+        }, {
+          "x" : 473,
+          "y" : 3054
+        } ]
+      }, {
+        "id" : "99"
+      }, {
+        "id" : "88",
+        "vertices" : [ {
+          "x" : 1545,
+          "y" : 3675
+        } ]
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "46"
       }, {
         "id" : "47"
       }, {
-        "id" : "59"
-      }, {
-        "id" : "49",
+        "id" : "79",
         "vertices" : [ {
-          "x" : 595,
-          "y" : 1535
-        }, {
-          "x" : 595,
-          "y" : 3790
+          "x" : 1163,
+          "y" : 2796
         } ]
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "106"
       } ],
       "elements" : [ {
         "id" : "11",
-        "x" : 1310,
-        "y" : 1380
+        "x" : 1195,
+        "y" : 1570
       }, {
         "id" : "12",
-        "x" : 1515,
-        "y" : 1910
+        "x" : 1285,
+        "y" : 2135
       }, {
         "id" : "24",
-        "x" : 715,
-        "y" : 3650
+        "x" : 593,
+        "y" : 3839
       }, {
         "id" : "13",
-        "x" : 1510,
-        "y" : 2495
+        "x" : 1390,
+        "y" : 2685
       }, {
-        "id" : "27",
-        "x" : 690,
-        "y" : 3215
+        "id" : "28",
+        "x" : 568,
+        "y" : 3404
       }, {
         "id" : "1",
-        "x" : 1310,
-        "y" : 210
+        "x" : 1188,
+        "y" : 399
+      }, {
+        "id" : "3",
+        "x" : 2850,
+        "y" : 2635
+      }, {
+        "id" : "5",
+        "x" : 2830,
+        "y" : 3105
       }, {
         "id" : "8",
-        "x" : 1310,
-        "y" : 815
+        "x" : 1190,
+        "y" : 1005
       }, {
         "id" : "9",
-        "x" : 541,
-        "y" : 799
-      }, {
-        "id" : "30",
-        "x" : 685,
-        "y" : 2710
+        "x" : 419,
+        "y" : 988
       }, {
         "id" : "20",
-        "x" : 1510,
-        "y" : 3090
+        "x" : 1950,
+        "y" : 3250
       }, {
-        "id" : "10",
-        "x" : 2065,
-        "y" : 1380
+        "id" : "32",
+        "x" : 565,
+        "y" : 2900
       }, {
         "id" : "21",
-        "x" : 2325,
-        "y" : 2275
+        "x" : 2185,
+        "y" : 2380
+      }, {
+        "id" : "10",
+        "x" : 1943,
+        "y" : 1569
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Camunda",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 3985,
+        "height" : 2990
+      },
+      "containerId" : "13",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "83"
+      }, {
+        "id" : "80"
+      }, {
+        "id" : "91"
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "97"
+      }, {
+        "id" : "73"
+      }, {
+        "id" : "98"
+      }, {
+        "id" : "87",
+        "vertices" : [ {
+          "x" : 1978,
+          "y" : 920
+        } ]
+      }, {
+        "id" : "95"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "100"
+      }, {
+        "id" : "77"
+      }, {
+        "id" : "66",
+        "vertices" : [ {
+          "x" : 3148,
+          "y" : 2008
+        } ]
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "102"
+      }, {
+        "id" : "101"
+      }, {
+        "id" : "104"
+      }, {
+        "id" : "49"
+      }, {
+        "id" : "103"
+      } ],
+      "elements" : [ {
+        "id" : "12",
+        "x" : 994,
+        "y" : 2490
+      }, {
+        "id" : "24",
+        "x" : 1739,
+        "y" : 205
+      }, {
+        "id" : "14",
+        "x" : 989,
+        "y" : 1735
+      }, {
+        "id" : "15",
+        "x" : 1757,
+        "y" : 1271
+      }, {
+        "id" : "16",
+        "x" : 1004,
+        "y" : 1250
+      }, {
+        "id" : "17",
+        "x" : 1724,
+        "y" : 1950
+      }, {
+        "id" : "28",
+        "x" : 2339,
+        "y" : 210
+      }, {
+        "id" : "18",
+        "x" : 2480,
+        "y" : 1905
+      }, {
+        "id" : "19",
+        "x" : 2409,
+        "y" : 820
+      }, {
+        "id" : "3",
+        "x" : 3334,
+        "y" : 1250
+      }, {
+        "id" : "5",
+        "x" : 3294,
+        "y" : 805
+      }, {
+        "id" : "20",
+        "x" : 199,
+        "y" : 1270
+      }, {
+        "id" : "32",
+        "x" : 1079,
+        "y" : 200
+      }, {
+        "id" : "21",
+        "x" : 2509,
+        "y" : 2490
       } ]
     } ],
     "configuration" : {
       "branding" : { },
-      "styles" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Group",
+          "color" : "#ff0000"
+        }, {
+          "tag" : "Element",
+          "background" : "#1168bd",
+          "color" : "#ffffff",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Person",
+          "shape" : "Person"
+        }, {
+          "tag" : "bus",
+          "shape" : "Pipe"
+        }, {
+          "tag" : "db",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "microservice",
+          "shape" : "Hexagon"
+        }, {
+          "tag" : "browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Component",
+          "shape" : "Component"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
       "defaultView" : "huntArchitecture",
       "lastSavedView" : "huntArchitecture"
     }
